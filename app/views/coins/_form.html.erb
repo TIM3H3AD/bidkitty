@@ -1,0 +1,96 @@
+<% provide(:title, 'assets') %>
+<% provide(:quote, 'In the future, everyone will have their own currency.') %>
+
+<%= form_for @coin do |f| %>
+  <% if @coin.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@coin.errors.count, "error") %> prohibited
+      this coin from being saved:</h2>
+    <ul>
+    <% @coin.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+  <p>
+    <%= f.label :xdp_name %><br>
+    <%= f.text_field :xdp_name %>
+  </p>
+  
+  <p>
+    <%= f.label :xdp_address %><br>
+    <%= f.text_field :xdp_address %>
+  </p>
+  
+  <p>
+    <%= f.label :btc_address %><br>
+    <%= f.text_field :btc_address %>
+  </p>
+  
+  <p>
+    <%= f.label :proof_of_reserve %><br>
+    <%= f.text_field :proof_of_reserve %>
+  </p>
+    
+   <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+	
+   <p>
+    <%= f.label :info %><br>
+    <%= f.text_area :info %>
+  </p>
+    
+    <p>
+    <%= f.label :webpage %><br>
+    <%= f.text_field :webpage %>
+  </p>
+  
+  <p>
+    <%= f.label :dev_name %><br>
+    <%= f.text_field :dev_name %>
+  </p>
+  
+  <p>
+    <%= f.label :dev_contact %><br>
+    <%= f.text_field :dev_contact %>
+  </p>
+  
+  <p>
+    <%= f.label :image_1 %><br>
+    <%= f.text_field :image_1 %>
+  </p>
+  
+    <p>
+    <%= f.label :image_2 %><br>
+    <%= f.text_field :image_2 %>
+  </p>
+  
+    <p>
+    <%= f.label :image_3 %><br>
+    <%= f.text_field :image_3 %>
+  </p>
+  
+  <p>
+    <%= f.label :wbi_verified %><br>
+    <%= f.text_field :wbi_verified %>
+  </p>
+  
+    <p>
+    <%= f.label :capital_assets_value %><br>
+    <%= f.text_field :capital_assets_value %>
+  </p>
+  
+  <p>
+    <%= f.label :capital_assets_info %><br>
+    <%= f.text_area :capital_assets_info %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>
