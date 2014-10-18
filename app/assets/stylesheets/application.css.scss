@@ -1,15 +1,225 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import "bootstrap";
+/* universal */
+
+
+html {
+  overflow-y: scroll;
+  text-align: center;
+}
+
+body {
+    display: inline-block;
+    margin: 10px auto;
+	text-align: center;
+    }
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+    margin-center: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #b0e0e6;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+  }
+  
+  /* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+a:link {color:#00ACEC;}
+
+a:visited {color:#00ACEC;}
+
+a:hover {color:#000ACEC;}
+
+a:active {color:#00ACEC;}
+
+
+h1 {
+  font-family: 'Miltonian', cursive;
+  font-size: 5em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #AC3030;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Monofett', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #2CA44A;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'League Script', cursive;
+  font-size: 7em;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #AC3030;
+}
+
+h7 {
+  font-family: 'Codystar', cursive;
+  font-size: 4em;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h8 {
+  font-family: 'Ultra', serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h9 {
+font-family: 'Diplomata', cursive;
+font-size: 1.75em;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h10 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h11 {
+font-family: 'Sigmar One', cursive;
+  font-size: 1.25em;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+h12 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+h13 { 
+font-family: 'Cutive Mono', serif;
+  font-size: 2.25em;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  text-align: bottom;
+}
+
+h14 { 
+	font-family: 'Sigmar One', cursive;
+    font-size: 4em;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    text-align: right;
+}
+
+p {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* header */
+
+#logo {
+  float: center;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: center;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: center;
+  margin-center: 10px;
+}

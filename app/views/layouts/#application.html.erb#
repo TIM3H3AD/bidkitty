@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|League+Script|Codystar|Erica+One|Lily+Script+One|La+Belle+Aurore|Sigmar+One|Monofett|Press+Start+2P|Diplomata|Ultra|Bangers|Share+Tech+Mono|Over+the+Rainbow|Miltonian|Inconsolata' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "XOTOZ.com" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "XOTOZ.com" %>">
@@ -25,8 +24,8 @@
 				
 				<td align="left" valign="top"><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Thank%20you%20tracking." data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></td>
 			</tr>			
-  </table>
-  </div><br>
+  </table><br>
+  </div>
 <div class="col-lg-1 col-left">
 <%= yield %>
 </div> 
