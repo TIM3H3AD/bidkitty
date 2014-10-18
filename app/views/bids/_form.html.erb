@@ -1,0 +1,80 @@
+<%= form_for @bid do |f| %>
+  <% if @bid.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@bid.errors.count, "error") %> prohibited
+      this bid from being saved:</h2>
+    <ul>
+    <% @bid.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+ <p>
+    <%= f.label :your_name %><br>
+    <%= f.text_field :maker%>
+  </p>
+
+  <p>
+    <%= f.label :phone %><br>
+    <%= f.text_field :maker_phone %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :maker_email %>
+  </p>
+   
+   <p>
+    <%= f.label :auction_id %><br>
+    <%= f.text_field :auction_id %>
+  </p>
+   
+  <p>
+    <%= f.label :street_number %><br>
+    <%= f.text_field :street_number %>
+  </p>
+  
+  <p>
+    <%= f.label :street_name %><br>
+    <%= f.text_field :street_name %>
+  </p>
+  
+  <p>
+    <%= f.label :auction_end %><br>
+    <%= f.datetime_select :auction_end, {:order => [:month, :day, :year, :hour, :minute],:prompt => true, :start_year => Time.now.year, :end_year => 2014} %>
+  </p>
+  
+   <p>
+    <%= f.label :bid_threshold%><br>
+    <%= f.text_field :bid_threshold %>
+  </p>
+    
+	<p>
+    <%= f.label :btc_address %><br>
+    <%= f.text_field :btc_address %>
+  </p>
+  
+  <p>
+    <%= f.label :total_funds %><br>
+    <%= f.text_field :total_funds %>
+  </p>
+  
+  <p>
+    <%= f.label :project_name %><br>
+    <%= f.text_field :unique_name %>
+  </p>
+  
+  <p>
+    <%= f.label :plans %><br>
+    <%= f.text_area :plan %>
+  </p>
+  
+
+
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>

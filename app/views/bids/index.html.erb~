@@ -1,0 +1,78 @@
+<% provide(:title, 'bids') %>
+<% provide(:quote, '"The only escape is a forward escape."') %>
+		
+<h7>BID BUILDER</h7><br>
+<h11>BETA TESTNET</h11><h3>PROXY</h3>
+<p>
+If you are reading this, you are likely interested in Detroit property ownership and are looking for a last minute solution to making bids in this year's WAYNE COUNTY auction.<p>
+
+This webpage is a tool that can be used to network resources in your developing community with decentralized transparency so that LOCAL interest can directly compete with outside, big pocket investors. <p>
+We will be meeting on 10/19/14<br>
+LOCATION:DBA<p>
+Please use the entry form below to submit your "claim" which indicates that you have an interest in aligning resources to take ownership of a property in your neighborhood.
+<hr>
+<h14><%= link_to 'CREATE NEW CLAIM', new_bid_path, class: "btn btn-large btn-default" %></h14>
+<hr>
+<h11>If you are interested in crowdfunding the buying wing of this campaign,<br> please use the following digital coins. </h11><h3>Thank you!</h3><p>
+
+<h11>BITCOIN:</h11><h3>1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9</h3>
+<hr>
+<h11>KORECOIN:</h11><h3>KH29egMB2wGSeUe6jCTfMcPSfxP9uGQokT</h3>
+<hr>
+<h11>STARTCOIN:</h11><h3>scatHW4kqsxtEVuwU2WoeFHW67QDZB95VE</h3>
+<hr>
+<h4>
+If you are interested in joining our team of proxy bidders or technologists, please email <a href="mailto:whalebone.earth@gmail.com"> NBB GQS </a></h4><hr><h4>
+The data posted in this table is not filtered or edited. The content cannot be edited, only deleted by proof of email and direct contact with our database operators. -blockmoor</h4>
+<h1>PUBLIC CLAIMS BY STREET #</h1><p>
+<table class="table table-striped">
+  <tr valign="middle">
+    <th>STREET #</th>
+	<th>STREET NAME</th>
+	<th>AUCTION END</th>
+	<th>CLAIMED BY</th>
+	<th>AUCTION ID</th>
+	<th>FUNDS</th>
+    </tr>
+  <tr valign="middle">
+  <% @bids = Bid.limit(10) %>
+  <% @bids = Bid.all(:order => 'street_number ASC') %>
+  <% for bid in @bids %>
+	<td align="center"><%= bid.street_number %></td>
+	<td align="center"><%= bid.street_name %></td>
+	<td align="center"><%= bid.auction_end %></td>
+	<td align="center"><%= bid.maker %></td>
+	<td align="center"><%= bid.auction_id %></td>
+	<td align="center"><%= bid.total_funds %></td>
+  </tr>
+ <% end %>
+</table>
+<hr>
+<h1>PUBLIC CLAIMS BY AUCTION END#</h1><p>
+<p>
+<table class="table table-striped">
+  <tr valign="middle">
+    <th>STREET #</th>
+	<th>STREET NAME</th>
+	<th>AUCTION END</th>
+	<th>CLAIMED BY</th>
+	<th>AUCTION ID</th>
+	<th>FUNDS</th>
+    </tr>
+  <tr valign="middle">
+  <% @bids = Bid.limit(10) %>
+  <% @bids = Bid.all(:order => 'auction_end DESC') %>
+  <% for bid in @bids %>
+	<td align="center"><%= bid.street_number %></td>
+	<td align="center"><%= bid.street_name %></td>
+	<td align="center"><%= bid.auction_end %></td>
+	<td align="center"><%= bid.maker %></td>
+	<td align="center"><%= bid.auction_id %></td>
+	<td align="center"><%= bid.total_funds %></td>
+  </tr>
+ <% end %>
+</table>
+<small><a href="mailto:whalebone.earth@gmail.com">[arc]</a>::automated integrations</small>
+
+<%= render 'http://google.com' %>
+

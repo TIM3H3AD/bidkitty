@@ -11,10 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140224203311) do
+ActiveRecord::Schema.define(version: 20141017233008) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "bids", force: true do |t|
+    t.string   "maker"
+    t.string   "maker_phone"
+    t.string   "maker_email"
+    t.string   "auction_id"
+    t.string   "street_number"
+    t.string   "street_name"
+    t.string   "total_funds"
+    t.string   "bid_threshold"
+    t.datetime "auction_end"
+    t.string   "btc_address"
+    t.text     "plan"
+    t.string   "unique_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

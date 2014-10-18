@@ -1,0 +1,26 @@
+
+<h4><%= @bid.auction_id %></h4><br>  
+<h7><%= link_to '| << |', bids_path %></h7>
+<hr>
+
+<h13><%= @bid.street_number %> <%= @bid.street_name %></h13><p>
+<h4><%= @bid.auction_end %></h4><br>
+<h1>$ <%= @bid.total_funds %></h1>
+
+<hr>
+
+<h11> POSTED BY: </h11>
+<br>
+<h8><%= @bid.maker %> AT <%= @bid.maker_phone %></h8><br>
+<hr>
+<h11>BTC ADDRESS</h11> 
+<h3><%= @bid.btc_address %> </h3> 
+<hr>
+<h11>PROJECT NAME</h11> 
+<h3><%= @bid.unique_name %> </h3> 
+<hr>
+<h11>USE PLAN</h11> 
+<%= @bid.plan %><hr>
+
+
+<h7><%= link_to 'Back | << |', bids_path %></h7>
