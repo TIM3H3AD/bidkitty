@@ -1,6 +1,6 @@
 
 <h4><%= @bid.auction_id %></h4><br>  
-<h7><%= link_to 'complete | >> |', bids_path %></h7>
+<h7><%= link_to '| << |', bids_path %></h7>
 <hr>
 
 <h13><%= @bid.street_number %> <%= @bid.street_name %></h13><p>
@@ -11,7 +11,7 @@
 
 <h11> POSTED BY: </h11>
 <br>
-<h8><%= @bid.maker %> AT <%= @bid.maker_phone %> or <a href="mailto:<%= @bid.maker_email %>"><%= @bid.maker_email %></a></h8><br>
+<h8><%= @bid.maker %> AT <%= @bid.maker_phone %></h8><br>
 <hr>
 <h11>BTC ADDRESS</h11> 
 <h3><%= @bid.btc_address %> </h3> 
@@ -23,4 +23,4 @@
 <%= @bid.plan %><hr>
 
 
-<h7><%= link_to 'complete | >> |', bids_path %></h7>
+<h7><%= link_to 'Back | << |', bids_path %></h7>
