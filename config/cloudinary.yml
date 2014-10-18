@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: whalebone
+  api_key: '462117696263637'
+  api_secret: a4L51eOPoSIdnU-IaRrTTFhGC9E
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: whalebone
+  api_key: '462117696263637'
+  api_secret: a4L51eOPoSIdnU-IaRrTTFhGC9E
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: whalebone
+  api_key: '462117696263637'
+  api_secret: a4L51eOPoSIdnU-IaRrTTFhGC9E
+  enhance_image_tag: true
+  static_image_support: false
