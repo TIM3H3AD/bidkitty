@@ -1,3 +1,6 @@
+<% provide(:title, 'assets') %>
+<% provide(:quote, 'In the future, everyone will have their own currency.') %>
+
 <%= form_for @coin do |f| %>
   <% if @coin.errors.any? %>
   <div id="error_explanation">

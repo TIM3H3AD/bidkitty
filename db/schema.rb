@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141017233008) do
+ActiveRecord::Schema.define(version: 20141018153001) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,26 @@ ActiveRecord::Schema.define(version: 20141017233008) do
     t.string   "btc_address"
     t.text     "plan"
     t.string   "unique_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "coins", force: true do |t|
+    t.string   "xdp_name"
+    t.string   "xdp_address"
+    t.string   "btc_address"
+    t.string   "proof_of_reserve"
+    t.string   "title"
+    t.text     "info"
+    t.string   "webpage"
+    t.string   "dev_name"
+    t.string   "dev_contact"
+    t.string   "image_1"
+    t.string   "image_2"
+    t.string   "image_3"
+    t.string   "wbi_verified"
+    t.string   "capital_assets_value"
+    t.text     "capital_assets_info"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

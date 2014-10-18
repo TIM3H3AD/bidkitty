@@ -54,6 +54,6 @@ def destroy
   @coin = Coin.find(params[:id])
   @coin.destroy
  
-  redirect_to :coins_path
+  redirect_to :com
 end
 end

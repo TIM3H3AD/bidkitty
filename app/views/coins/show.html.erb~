@@ -1,3 +1,6 @@
+<% provide(:title, 'assets') %>
+<% provide(:quote, 'In the future, everyone will have their own currency.') %>
+
 <h4><%= @coin.title %></h4><br> 
 <img src="<%= @coin.image_1 %>"/>
 <h4>#xdp<%= @coin.xdp_name %></h4><br> 

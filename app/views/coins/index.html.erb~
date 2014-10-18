@@ -1,3 +1,6 @@
+<% provide(:title, 'assets') %>
+<% provide(:quote, 'In the future, everyone will have their own currency.') %>
+<hr>
 <h7>DIGITAL ASSETS</h7><br>
 <h11>For a decentralized galaxy</h11><br>
 <hr>

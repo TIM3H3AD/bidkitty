@@ -1,3 +1,3 @@
 <%# add navigation links to this file %>
-  <li><%= link_to 'BID CLAIM REQUESTS', bids_path %></li>
+  <li><%= link_to 'PROPERTY BID REQUEST', bids_path %></li>
 
