@@ -12,7 +12,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'sprockets_better_errors'
 gem 'cloudinary'
 
 group :development do
