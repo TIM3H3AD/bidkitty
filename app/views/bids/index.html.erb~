@@ -1,46 +1,55 @@
-<div class="span4" margin-left: auto; margin-right: auto>
+<div class="span4" margin-left: auto; margin-right: auto;>
 <h1>#pROXY</h1><img src="/assets/cat.jpg"/>
-<h4>[detroit v.02 alpha]</h4> <h3>a proxy bid app of the open-source-syndicate</h3>
-<p>In 2014, Wayne County increased the auction entry ticket cost by 300%. Many properties went unsold in 2013 with a minimum bid of $500.
-After auction players have stacked their chips, those without the buy in ticket funds are left to watch their neighborhood sell off to the highest bidder. 
+<h4>[detroit v.02 alpha]</h4> <h3>a proxy bid app of the open-source-syndicate</h3> 
+<p>In 2014, Wayne County increased the cost of participation in the annual land auction by 300% (now $2000) despite the fact that many properties went unsold in 2013 with a minimum bid of $500.
+After auction players have stacked their chips, those without the buy in ticket funds are left to watch their neighborhood sell off to the highest bidder. Even community efforts to fundraise toward the "multi-bid" ticket have been marginalized by the creation of the $25K property bundles.<p>
+Bottom line,this year's "public" property auction is not very public.
 <p>
 If you are reading this, you are likely interested in Detroit property ownership and are looking for a last minute solution to making bids in this year's WAYNE COUNTY auction.<p>
-pROXY the bid kitten has arrived as a working proof of concept model as a proxy bid solution for community development groups.<p>
+Look no further! pROXY the bid kitten has arrived as a working proof of concept model for making proxy bids and creating dialogue.<p>
 <hr>
 <img src="/assets/farm_land.jpg"/><br>
 <h3>The idea is simple, lets connect, strategize and unite resources, knowledge and interests while increasing the acreage of what we know is possible.</h3>
 <hr>
 <p>pROXY can network resources and incentivise transparency in an ANY auction scenario. She enjoys indexing community bid requests while displaying them in AUCTION END order and
 tracking a number of other variables regarding your "BID REQUESTS." pROXY is a real tool for proxy bidding networks.<p>
-Anyone can create a bid request FREELY below. It doesn't mean we will win your bid but we will do our best and will transfer the property to you if you choose to purchase it.
-The bid request form allows you to share your contact information, your story/plan, your max willingness to pay AND the amount our bid team has received for you.<p>
-If pROXY is utilized (BY YOU!), we will have a party on each day of the auction to network, celebrate and collect any funds available from bid makers like yourself.
-Our bid locations will be announced on the morning of 10/20/14) to meet and finalize our bid team, review strategy and COLLECT FUNDS for BID REQUESTS.<p>
+Anyone can create a bid request FREELY/anonymously below. It doesn't mean we will win your bid but we will do our best and will transfer the property to you if you choose to purchase it.
+The bid request form allows you to share your contact information, your story/plan, several database fields for handling the financials!<p>
+If pROXY is utilized (BY YOU!), we will be holding parties on several auction days of the auction to network, celebrate and collect any funds available from bid makers like yourself.
+<p>
+<h11>NEXT pROXY MTG</h11><p>
+~5pm
+<a href="reimaginingwork.org/">#NWNC2014</a><br><p>
+TONIGHT! (11/20/14)
 </div>
 <div class="span8"><p>
 A bid on pROXY can be used to share your interest in ownership or to invite "IN AUCTION" dialogue.
 pROXY also makes a great resource for developers who don't want to infringe on land that residents would like to claim for a community purpose.
 <p>
 This resource was inspired specifically by the Brightmoor community of Detroit and WAYNE COUNTY.
-<p>
-Please use the button BELLOW to submit a "bid request" which indicates that you have an interest in aligning resources to take ownership of a property in your neighborhood.
 <hr>
+<h4>Use this button to submit your local "bid request"</h4> 
 <h14><%= link_to 'CREATE BID REQUEST', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
-<p>If used, pROXY will support your developing community with distributed transparency to create opportunities for collaboration and perhaps... <br> <h1> a whole new model for property redistribution!</h1><p>
+Keep in mind you do not have to complete the name fields accurately. Accurate auction data is more important.
+<p>If used, pROXY will support your developing community by distributing transparency and thus allowing for future minded collaboration and perhaps... <br> 
+<h1> a whole new model for property redistribution!</h1><p>
 As always, how big this gets is up to you and WE the people.<hr>
-<h11>Anonymous, international and intergalactic support are greatly appreciated. We promise to keep our projects progressive and open sourced.<p>
-<br>We only accept digital currency. </h11><p>
-To thank you for your support, we are offering shares of the properties we acquire and develop using your funds through <a href="http://www.dogeparty.io">DOGEPARTYCOIN(XDP)</a><p>
+<h11>Anonymous, international and intergalactic support is greatly appreciated. We promise to keep our projects progressive and open sourced.<p>
+<br>We currenlty only accept digital currency. </h11><p>
+We have submitted our campaign for review at <a href="https:startjoin.com">startjoin.com</a> and will accept funding via paypal.<p>
+To thank you for your support and to make this realm in the digital realm, we are offering shares of the properties we acquire and develop using your funds through <a href="http://www.dogeparty.io">DOGEPARTYCOIN(XDP)</a><p>
 Please send an email to <a href="mailto:whalebone.earth@gmail.com">WHALEBONE</a> with your XDP address (free at dogeparty.io) and the address you will be using to send coin. We will then transfer digital assets in proportion to your investment based on the list of assets found HERE (arriving shorlty).
 <p>
  <h3>Thank you!</h3><p>
-<h11>BITCOIN:</h11><h3><a href="https://blockchain.info/address/1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9">1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9</a></h3>
+<h11>BITCOIN:</h11><br>
+<img src="/assets/boggs_bitcoin.png"/><br>
+<h3><a href="https://blockchain.info/address/1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9">1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9</a></h3>
 <hr>
 <h11>STARTCOIN:</h11><h3><a href="http://explorer.startcoin.org/address/scatHW4kqsxtEVuwU2WoeFHW67QDZB95VE">scatHW4kqsxtEVuwU2WoeFHW67QDZB95VE</a></h3>
 <hr>
 <h11>KORECOIN:</h11><h3><a href="http://explorer.korecoin.org/address/KH29egMB2wGSeUe6jCTfMcPSfxP9uGQokT">KH29egMB2wGSeUe6jCTfMcPSfxP9uGQokT</a></h3>
 <hr>
-<h4>Interested in joining our team of proxy bidders or dev team? Please send an email to pROXY at </h4><h1><a href="mailto:whalebone.earth@gmail.com">[mgmt]</a></h1>
+<h4>Interested in joining our DEV or BID teams? Please send an email to pROXY at </h4><h1><a href="mailto:whalebone.earth@gmail.com">[mgmt]</a></h1>
 <hr><p>
 The data posted in this table is not filtered or edited. The content cannot be edited, only deleted by proof of email and direct contact with our database operators.
 </div>

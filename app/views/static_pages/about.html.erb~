@@ -1,0 +1,51 @@
+<% provide(:title, 'about') %>
+		
+		<a href="http://en-us.reddit.com/submit" onclick="window.location = 'http://en-us.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="http://en-us.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a>
+	    <br>
+	    <a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Thank%20you%20tracking." data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>
+		<div id="fb-root"></div>
+
+  <center><%= link_to image_tag("pittsburgh.jpg", alt: "theohyeah"), 'about' %></center>
+  <p>
+   In 2012, WHALEBONE opened the NEVERENDING GiFT CaRD exchange inside an ice cream shop and turned a bank issued giftcard into an interest earning ice cream based currency called an ohyeah!
+  <p>
+  Since January 2012, WHALEBONE has maintained a 5% monthly payback while sourcing NEVERDRAFT CASH SETS: a cash advanced "giftset" that rents $100 for a $5 monthly fee to neighbors struggling with overdraft fees from corporate FDIC banks. 
+  <p>
+  The Ohyeah! is an experiment in high-yield/half-lifed currency designed to stimulate the economy through commidity backed rewards in local communities. If unused, !OY expires at the end of the month and is replaced by the first of the month. Account holders are able to adjust their gift card balance or close their account at any time.
+  
+  <p>
+  <hr>
+  <p>
+  <h1>Overdraft Industry Metrics:</h1>
+  <p>
+   
+   WHALEBONE's CafeBanco is a working proof of concept model for replacing the modern? American overdraft fee: a <a href="http://www.hufFINGtonpost.com/2013/03/29/overdraft-fees_n_2980946.html">$32,000,000,000</a> annual industry that equates to a $100 HEAD TAX for every citizen in the country, paid for by the country's poorest. 
+  
+  <p>
+  
+  There are an average of 2.5 million overdraft fees daily in the US that cost bank members an excess of $85,000,000 a day and $32,000,000,000 per year. How much $$$ would it take to cover the actual overdraft AND where does all the overdraft go? Only the banks know! Could a bank turn an overdraft fee into a future line of credit for cash poor customers? Could governments use a portion of these cash poor profits to support government programs that support the cash poor? si se puede!
+  <p>
+  <hr>
+  <h11>
+  Government officials liked the ice cream more than the banking concepts: 
+  </h11>
+  <a href="http://www.post-gazette.com/businessnews/2012/09/13/Shadyside-ice-cream-bank-wants-to-handle-your-cold-hard-cash/stories/201209130227">PPG 2012</a> | 
+  <a href="http://online.wsj.com/news/articles/SB10000872396390444433504577649971326432962">WSJ 2012</a> | <a href="http://www.post-gazette.com/businessnews/2013/03/29/Operator-of-Shadyside-s-Oh-Yeah-ice-cream-parlor-and-bank-refuses-to-melt/stories/201303290117">PPG 2013</a>
+  <p>
+  <hr>
+  <p>
+   In addition to proving an overdraft alternative is sustainable, WHALEBONE suggests that banks could be earning "members" at least 100% more monthly interest. Instead, they continue to lend money that doesn't exist so they can charge more interest than what could possibly be repaid by the money that is available in the economy.
+  <h11><br>
+  Have you heard about <a href="http://hiddensecretsofmoney.com/videos/episode-4">THE FEDERAL RESERVE SCAM?</a>
+  </h11>
+  <hr>
+  <p>
+  <h1>GOALS FOR 2014:</h1><br>1.FREE THE WHALES (See<a href="bounties"> BOUNTIES</a>)<br>2.FREE MCKEE (See<a href="bounties"> BOUNTIES</a>)<br>3.GOAT MILK DAIRY/INDOOR APIARIES<br>4.$100,000,000,000 GLOBAL COIN MARKET<br>5.END OVERDRAFT FEES 
+  </p>
+  <p>
+  <hr>
+  <center><%= link_to image_tag("spirit_of_detroit.jpg", alt: "WHALEBONE intergalactic joins forces with the Spirit of Detroit & Joe Louis's fist"), 'http://en.wikipedia.org/wiki/The_Spirit_of_Detroit' %></center>
+ <p>Whalebone has opened an outpost in <a href="http://en.wikipedia.org/wiki/The_Spirit_of_Detroit">DETROIT</a> while diversifying its holdings into local sun based economies like goats, ice cream and agriculural pharmeceuticals.
+  <p>
+ We are committed to providing an honest, reliable, fun and progressive brick & mortar digital exchange for the future of the digital economy.</p>
+  
