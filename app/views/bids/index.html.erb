@@ -17,7 +17,7 @@ The bid request form allows you to share your contact information, your story/pl
 If pROXY is utilized (BY YOU!), we will have a party on each day of the auction to network, celebrate and collect any funds available from bid makers like yourself.
 Our bid locations will be announced on the morning of 10/20/14) to meet and finalize our bid team, review strategy and COLLECT FUNDS for BID REQUESTS.<p>
 </div>
-<div class="span8">
+<div class="span8"><p>
 A bid on pROXY can be used to share your interest in ownership or to invite "IN AUCTION" dialogue.
 pROXY also makes a great resource for developers who don't want to infringe on land that residents would like to claim for a community purpose.
 <p>
@@ -70,30 +70,6 @@ The data posted in this table is not filtered or edited. The content cannot be e
   </tr>
  <% end %>
 </table>
-<hr>
-<h1>BIDS BY AUCTION END</h1><p>
-<p>
-<table class="table table-striped">
-  <tr valign="middle">
-    <th>STREET #</th>
-	<th>STREET NAME</th>
-	<th>AUCTION END</th>
-	<th>CLAIMED BY</th>
-	<th>AUCTION ID</th>
-	<th>$</th>
-	<th></th>
-    </tr>
-  <tr valign="middle">
-  <% for bid in @bids %>
-	<td align="center"><%= bid.street_number %></td>
-	<td align="center"><%= bid.street_name %></td>
-	<td align="center"><%= bid.auction_end %></td>
-	<td align="center"><%= bid.maker %></td>
-	<td align="center"><%= bid.auction_id %></td>
-	<td align="center"><%= bid.total_funds %></td>
-	<td align="center"><%= link_to 'details', bid %></td>
-  </tr>
- <% end %>
-</table>
+
 <a href="mailto:whalebone.earth@gmail.com">[ARC]</a>
 
