@@ -1,3 +1,4 @@
+<% provide(:title, 'BOGGS by whalebone') %>
 
 <h5>BOGGScoin</h5><p>
 <small>BTC: 14hDswBBKeMwV2GB6NupWohXxq7h2XRDZX</small><br>
