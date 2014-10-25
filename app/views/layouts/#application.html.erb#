@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|League+Script|Codystar|Erica+One|Lily+Script+One|La+Belle+Aurore|Sigmar+One|Monofett|Press+Start+2P|Diplomata|Ultra|Bangers|Share+Tech+Mono|Over+the+Rainbow|Miltonian|Inconsolata' rel='stylesheet' type='text/css'>
+    <title><%= content_for?(:title) ? yield(:title) : "XOTOZ.com" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "XOTOZ.com" %>">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  
+  <body>
+  <main role="main">
+  <%= render 'layouts/messages' %>
+
+<header>
+<%= render 'layouts/navigation' %>
+</header>
+<table align="center">
+			<tr>
+			<td align="left" valign="top">
+	  <a href="https://en-us.reddit.com/submit" onclick="window.location = 'http://en-us.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="https://en-us.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a></td>
+				
+				<td align="left" valign="top"><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Thank%20you%20tracking." data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></td>
+			</tr>			
+  </table>
+  
+
+  <%= yield %>
+
+
+  </body>
+
+</html>
