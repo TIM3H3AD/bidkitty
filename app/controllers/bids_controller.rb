@@ -38,6 +38,8 @@ end
 
 def index
   @bids = Bid.all
+  @bids_funds_total = Bid.count('total_funds')
+  
 end
 
 def destroy

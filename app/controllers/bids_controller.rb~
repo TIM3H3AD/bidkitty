@@ -38,12 +38,14 @@ end
 
 def index
   @bids = Bid.all
+  @bids_funds_total = Bid.sum('total_funds') 
+  
 end
 
 def destroy
   @bid = Bid.find(params[:id])
   @bid.destroy
  
-  redirect_to :com
+  redirect_to :bids_path
 end
 end
