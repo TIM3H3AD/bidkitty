@@ -45,7 +45,7 @@ end
 def index
   @bids = Bid.all
   Bid.order('auction_end DESC')
-  @bids_funds_total = Bid.count('total_funds')
+  @bids_funds_total = Bid.count('bid_threshold')
    
 end
 
