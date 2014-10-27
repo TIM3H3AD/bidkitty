@@ -43,8 +43,7 @@ def show
 end
 
 def index
-  @bids = Bid.all
-  Bid.order('auction_end DESC')
+  @bids = Bid.all.order(:auction_end)
   @bids_funds_total = Bid.count('bid_threshold')
    
 end
