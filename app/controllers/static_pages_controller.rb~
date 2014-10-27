@@ -1,0 +1,33 @@
+class StaticPagesController < ApplicationController
+  def about
+  end
+  
+def com
+  @coins = Coin.all
+  @bounties = Bounty.all
+  @listings = Listing.all
+end
+
+def apply
+  @applications = Application.all
+ end
+ 
+ def pp
+  @applications = Application.all
+ end
+  
+  def store
+  end
+  
+  def redline
+  end
+
+  def lobby_lotto
+  end
+  
+  def faq
+  end
+
+  def home
+  end
+end

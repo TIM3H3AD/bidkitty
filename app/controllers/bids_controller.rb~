@@ -38,7 +38,7 @@ end
 
 def index
   @bids = Bid.all
-  @bids_funds_total = Bid.sum('total_funds') 
+  @bids_funds_total = Bid.count('total_funds')
   
 end
 
