@@ -10,7 +10,6 @@
 	<th></th>
     </tr>
   <tr valign="middle">
- <% Bid.order(:auction_end) %>
  <% for bid in @bids %>
   	<td align="center"><%= bid.auction_end %></td>
 	<td align="center"><%= bid.auction_id %></td>

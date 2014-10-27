@@ -1,0 +1,4 @@
+class ChangeBidThresholdInMyTable < ActiveRecord::Migration
+  def change
+  end
+end
