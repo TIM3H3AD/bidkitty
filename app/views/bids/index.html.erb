@@ -8,6 +8,7 @@
 	<th>BITCOIN</th>
 	<th></th>
 	<th></th>
+	<th></th>
     </tr>
   <tr valign="middle">
  <% for bid in @bids %>
@@ -16,6 +17,8 @@
 	<td align="center"><%= bid.btc_address %></td>
 	<td align="center"><%= link_to 'details', bid %></td>
 	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
+	<td align="center"><%= link_to 'delete', bid_path(bid),
+                    method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
 </table>

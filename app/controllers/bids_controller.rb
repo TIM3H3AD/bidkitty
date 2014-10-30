@@ -1,5 +1,5 @@
 class BidsController < ApplicationController
-  http_basic_authenticate_with name: "nework", password: "red_door", only: :destroy
+  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :destroy
  
   http_basic_authenticate_with name: "nework", password: "red_door", only: :edit
   
