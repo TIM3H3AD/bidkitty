@@ -4,8 +4,7 @@ class BidsController < ApplicationController
   http_basic_authenticate_with name: "nbb", password: "whalebone", only: :edit
   
   http_basic_authenticate_with name: "nbb", password: "whalebone", only: :index
-	
-	
+  
 def new
 @bid = Bid.new
 end
@@ -43,10 +42,7 @@ def show
 end
 
 def index
-  @bids = Bid.all
-  Bid.order('auction_end DESC')
-  @bids_funds_total = Bid.count('bid_threshold')
-   
+  @bids = Bid.all.order(:auction_end)
 end
 
 def destroy
