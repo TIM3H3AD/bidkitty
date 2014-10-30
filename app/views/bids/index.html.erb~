@@ -10,7 +10,7 @@
 	<th></th>
     </tr>
   <tr valign="middle">
-  <% for bid in @bids %>
+ <% for bid in @bids %>
   	<td align="center"><%= bid.auction_end %></td>
 	<td align="center"><%= bid.auction_id %></td>
 	<td align="center"><%= bid.maker %></td>

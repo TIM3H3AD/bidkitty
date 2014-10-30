@@ -7,8 +7,8 @@ TOTAL BID REQUESTS: <%= Bid.count %>
 <p>The 2014 WAYNE COUNTY PROPERTY AUCTION ends with many of the unsold properties now available for purchase through the "side lot" program. If there is an unsold property next to your home, YOU can now purchase it for $100!<p>
 <hr>
 <a href="http://waynecounty.com/treasurer/treasurer_payonline.htm">Check for available side lots HERE on WDWOT.com</a>
-<br><p> 
-Go to "Detroit," search for your home address and look for YELLOW lots available next to your home. Many homes in Detroit are neighbored by a number of vacant lots, thus making this a unique opportunity for the people of Detroit to support one another in taking ownership of the city. Coordinated purchsing efforts will only increase the number and value of Detroit assets while strengthening local networks to ensure that Detroit remains owned by intention and not just speculation.
+<p> 
+Search for your home address and look for YELLOW lots available next to your home. Many homes in Detroit are neighbored by a number of vacant lots, thus making this a unique opportunity for the people of Detroit to support one another in taking ownership of the city. Coordinated purchsing efforts will only increase the number and value of Detroit assets while strengthening local networks to ensure that Detroit remains owned by intention and not just speculation.
 <hr>
 <p>
 Have you paid your taxes?<p>
