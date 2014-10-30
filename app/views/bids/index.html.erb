@@ -15,7 +15,7 @@
 	<td align="center"><%= bid.total_funds %></td>
 	<td align="center"><%= bid.btc_address %></td>
 	<td align="center"><%= link_to 'details', bid %></td>
-	<td align="center"><%= link_to 'edit', edit_bid_path %></td>
+	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
   </tr>
  <% end %>
 </table>

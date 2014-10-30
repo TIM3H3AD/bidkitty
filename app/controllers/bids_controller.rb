@@ -42,7 +42,7 @@ def show
 end
 
 def index
-  @bids = Bid.all.order(:auction_end)
+  @bids = Bid.all.order(:maker)
 end
 
 def destroy
