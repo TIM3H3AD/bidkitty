@@ -1,12 +1,12 @@
 <hr>
-<h1>BIDS BY MAKER</h1><p>
+<h1>BIDS BY COMMUNITY NAME</h1><p>
 <p>
 <table class="table table-striped">
   <tr align="middle">
-  	<th>MAKER</th>
+  	<th>NAME</th>
 	<th>FUNDS</th>
 	<th>BITCOIN</th>
-	<th>LOT COUNT</th>
+	<th></th>
 	<th></th>
     </tr>
   <tr valign="middle">
@@ -14,8 +14,8 @@
   	<td align="center"><%= bid.maker %></td>
 	<td align="center"><%= bid.funds %></td>
 	<td align="center"><%= bid.btc_address %></td>
-	<td align="center"><%= lots.count %></td>
-	<td align="center"><%= link_to 'more', bid %></td>
+	<td align="center"><%= link_to 'details', bid %></td>
+	<td align="center"><%= link_to 'edit', edit_bid_path %></td>
   </tr>
  <% end %>
 </table>
