@@ -1,6 +1,6 @@
 class BidsController < ApplicationController
-  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :destroy
- 
+  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :delete
+  
   http_basic_authenticate_with name: "nework", password: "red_door", only: :edit
   
   http_basic_authenticate_with name: "nework", password: "red_door", only: :index
@@ -49,6 +49,6 @@ def destroy
   @bid = Bid.find(params[:id])
   @bid.destroy
  
-  redirect_to :bids_path
+  redirect_to bids_path
 end
 end
