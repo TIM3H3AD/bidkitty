@@ -10,12 +10,25 @@
     </ul>
   </div>
 <% end %>
-
+<hr>
+<p>Start here:</p>
  <p>
-    <%= f.label :community_leader_or_group_name %><br>
+    <%= f.label :community_leader_or_group_or_project_name %><br>
     <%= f.text_field :maker%>
   </p>
+ <hr> 
+ <p>ADDRESS w/ near available lots<p>
+   <p>
+    <%= f.label :street_number %><br>
+    <%= f.text_field :street_number %>
+  </p>
 
+   <p>
+    <%= f.label :street_name %><br>
+    <%= f.text_field :street_name %>
+  </p>
+  <hr>
+   <p>Contact & Funding Information<p>
   <p>
     <%= f.label :phone_number %><br>
     <%= f.text_field :maker_phone %>
@@ -30,7 +43,7 @@
     <%= f.label :available_funding %><br>
     <%= f.text_field :total_funds %>
   </p>
-  
+  <hr>
   <p>
     <%= f.label :your_plan_for_the_property %><br>
     <%= f.text_area :plan %>
