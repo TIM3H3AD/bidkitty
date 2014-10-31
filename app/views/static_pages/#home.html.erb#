@@ -6,18 +6,20 @@ TOTAL BID REQUESTS: <%= Bid.count %>
 <hr>
 <p>The 2014 WAYNE COUNTY PROPERTY AUCTION ends with many of the unsold properties now available for purchase through the "side lot" program. If there is an unsold property next to your home, YOU can now purchase it for $100!<p>
 <hr>
-<h4>Find $100 lots near you!</h4>
+<h4>(1) Find $100 lots near you!</h4>
 <a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992">Check for available side lots HERE on WDWOT.com</a>
 <p><p>
 Many homes in Detroit are neighbored by a number of vacant lots, thus making this a unique opportunity for the people of Detroit to support one another in taking ownership of the city. Coordinated purchasing efforts will only increase the number and value of Detroit assets while strengthening local networks to ensure that Detroit remains owned by intention and not just speculation.
 <hr>
 <p>
-<h4>Have you paid your taxes?</h4>
-You need to have your taxes paid in order to use your house to purchase its sidelots.
-<p>
+<h4>(2) Pay your taxes!</h4>
 <a href="http://waynecounty.com/treasurer/treasurer_payonline.htm">PAY PAST DUE 2013</a>
 <p>
 <a href="http://www.detroitmi.gov/DepartmentsandAgencies/Finance/TreasuryDivision/PayCurrentYearPropertyTax.aspx">PAY PAST DUE 2014</a>
+<p>
+You need to have your taxes paid in order to purchase its side lots. If you cannot afford to pay your taxes, please consider asking for support from <i>bidkitty</i> by filling out a bid request and put your total taxes owed as a NEGATIVE number under "funds available" field. Our goal is to network community leaders with you and your available lots today! 
+<hr>
+<h4>Call 844-289-3522</h4>
 </div>
 <div class="span8">
 <hr><p>
