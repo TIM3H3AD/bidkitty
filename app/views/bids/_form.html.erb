@@ -12,28 +12,23 @@
 <% end %>
 
  <p>
-    <%= f.label :your_name %><br>
+    <%= f.label :community_leader_or_group_name %><br>
     <%= f.text_field :maker%>
   </p>
 
   <p>
-    <%= f.label :phone %><br>
+    <%= f.label :phone_number %><br>
     <%= f.text_field :maker_phone %>
   </p>
  
   <p>
-    <%= f.label :auction_ID %><br>
-    <%= f.text_field :auction_id %>
+    <%= f.label :bitcoin_addresss %><br>
+    <%= f.text_field :btc_address %>
   </p>
   
-  <p>
-    <%= f.label :auction_end %><br>
-    <%= f.datetime_select :auction_end, {:order => [:month, :day, :year, :hour, :minute],:prompt => true, :start_year => Time.now.year, :end_year => 2014} %>
-  </p>
-  
-   <p>
-    <%= f.label :your_max_bid%><br>
-    <%= f.text_field :bid_threshold %>
+ <p>
+    <%= f.label :available_funding %><br>
+    <%= f.text_field :total_funds %>
   </p>
   
   <p>
