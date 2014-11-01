@@ -1,11 +1,12 @@
 <hr>
-<h1>BIDS BY COMMUNITY NAME</h1><p>
+<h1>TEAM VIEW</h1><p>
 <p>
 <table class="table table-striped">
   <tr align="middle">
-  	<th>NAME</th>
-	<th>FUNDS</th>
-	<th>BITCOIN</th>
+  	<th align="center">NAME</th>
+  	<th align="center">CONTACT</th>
+	<th align="center">FUNDS</th>
+	<th align="center">BITCOIN</th>
 	<th></th>
 	<th></th>
 	<th></th>
@@ -13,6 +14,7 @@
   <tr valign="middle">
  <% for bid in @bids %>
   	<td align="center"><%= bid.maker %></td>
+  	<td align="center"><%= bid.maker_phone %></td>
 	<td align="center"><%= bid.total_funds %></td>
 	<td align="center"><%= bid.btc_address %></td>
 	<td align="center"><%= link_to 'details', bid %></td>

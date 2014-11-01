@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141027070218) do
+ActiveRecord::Schema.define(version: 20141101081125) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20141027070218) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "bid_threshold"
+    t.integer  "available_funds"
   end
 
   create_table "coins", force: true do |t|

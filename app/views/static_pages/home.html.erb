@@ -4,7 +4,7 @@
 <p> 
 PROJECTS SUBMITTED: <%= Bid.count %>
 <br>
-FUNDS RAISED: $3450.00
+FUNDS - REQUESTS = <%= number_to_currency(Bid.sum(:available_funds), precision: 2) %> 
 <p> 
 <i>bidkitty</i> is a resource designed to support potential landholders in completing the requirements of the Detroit's Land Bank's SIDELOT PROGRAM. <i>bidkitty</i> is building a database of "lothouses" and project leaders to network with our networked capital and build some unique nodes for new work and new culture.
 <h2>4 steps to be a bidkitty "lothouse"</h2>

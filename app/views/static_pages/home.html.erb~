@@ -4,24 +4,27 @@
 <p> 
 PROJECTS SUBMITTED: <%= Bid.count %>
 <br>
-FUNDS RAISED: $3450.00
+FUNDS RAISED: $3450.00<br>
+
+AVAILABLE FUNDS: <%= Bid.sum(:total_funds) %> 
 <p> 
 <i>bidkitty</i> is a resource designed to support potential landholders in completing the requirements of the Detroit's Land Bank's SIDELOT PROGRAM. <i>bidkitty</i> is building a database of "lothouses" and project leaders to network with our networked capital and build some unique nodes for new work and new culture.
 <h2>4 steps to be a bidkitty "lothouse"</h2>
 <hr>
 <h4>(1) Find <a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992" target="_blank">$100 lots</a> near you!</h4>
-<p><a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992" target="_blank">Check for available side lots HERE on WDWOT.com</a>
-<p><p>
+<p>
 Many homes in Detroit neighbor a number of vacant lots that attract illegal dumping and other crimes. Coordinated community purchasing increases the quantity, value and diversification of Detroit's land owners. These local networks ensure that Detroit remains owned by intention/action and not just speculation.
+<p>
+<p><a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992" target="_blank">Check for available side lots HERE on WDWOT.com</a>
 <hr>
 <p>
 <h4>(2) Pay your taxes!</h4>
 <p>
+You need to have your taxes paid in order to purchase its side lots. If you cannot afford to pay your taxes, please consider asking for support from <i>bidkitty</i> by filling out a bid request and putting your total taxes owed as a NEGATIVE number in the "funds available" field. Our goal is to network community leaders with you and your lots today!
+<p>
 <a href="http://waynecounty.com/treasurer/treasurer_payonline.htm" target="_blank">PAY PAST DUE 2013</a>
 <p>
 <a href="http://www.detroitmi.gov/DepartmentsandAgencies/Finance/TreasuryDivision/PayCurrentYearPropertyTax.aspx" target="_blank">PAY PAST DUE 2014</a>
-<p>
-You need to have your taxes paid in order to purchase its side lots. If you cannot afford to pay your taxes, please consider asking for support from <i>bidkitty</i> by filling out a bid request and putting your total taxes owed as a NEGATIVE number in the "funds available" field. Our goal is to network community leaders with you and your lots today! 
 <hr>
 <h4>(3) Contact BUILDING DETROIT <br> <a href="http://www.buildingdetroit.org/" target="_blank">online</a> or by phone at</h4>
 <a href="tel:18442893522"><h2>844-289-3522</h2></a>

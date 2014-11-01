@@ -13,7 +13,7 @@
 <hr>
 <p>Start here:</p>
  <p>
-    <%= f.label :community_leader_or_group_or_project_name %><br>
+    <%= f.label :lot_holder_name_or_contact %><br>
     <%= f.text_field :maker%>
   </p>
  <hr> 
@@ -35,13 +35,13 @@
   </p>
  
   <p>
-    <%= f.label :bitcoin_addresss %><br>
+    <%= f.label :bitcoin_addresss_for_funding %> <a href="https://blockchain.info/wallet/new" target="_blank"> (GET A BITCOIN ADDRESS HERE)</a><br>
     <%= f.text_field :btc_address %>
   </p>
   
  <p>
     <%= f.label :available_funding %><br>
-    <%= f.text_field :total_funds %>
+    <%= f.text_field :available_funds %>
   </p>
   <hr>
   <p>

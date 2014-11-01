@@ -10,7 +10,7 @@ def new
 end
  
 def create
-  @bid = Bid.new(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :street_name, :street_number, :total_funds, :plan, :unique_name))
+  @bid = Bid.new(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :available_funds, :street_name, :street_number, :total_funds, :plan, :unique_name))
  
   if @bid.save
     redirect_to @bid
@@ -30,7 +30,7 @@ end
 def update
   @bid = Bid.find(params[:id])
  
-  if @bid.update_attributes(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :street_name, :street_number, :total_funds, :plan, :unique_name))
+  if @bid.update_attributes(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :available_funds, :street_name, :street_number, :total_funds, :plan, :unique_name))
     redirect_to @bid
   else
     render 'edit'

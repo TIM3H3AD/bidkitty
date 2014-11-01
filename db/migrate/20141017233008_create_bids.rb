@@ -7,7 +7,7 @@ class CreateBids < ActiveRecord::Migration
       t.string :auction_id
       t.string :street_number
       t.string :street_name
-      t.string :total_funds
+      t.integer :total_funds
       t.integer :bid_threshold
       t.datetime :auction_end
       t.string :btc_address
