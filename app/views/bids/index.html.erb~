@@ -1,21 +1,24 @@
 <hr>
-<h1>BIDS BY AUCTION END</h1><p>
+<h1>BIDS BY COMMUNITY NAME</h1><p>
 <p>
 <table class="table table-striped">
   <tr align="middle">
-  	<th>ENDING</th>
-	<th>AUCTION ID</th>
-  	<th>CLAIMED BY</th>
-	<th>MAX BID</th>
+  	<th>NAME</th>
+	<th>FUNDS</th>
+	<th>BITCOIN</th>
+	<th></th>
+	<th></th>
 	<th></th>
     </tr>
   <tr valign="middle">
  <% for bid in @bids %>
-  	<td align="center"><%= bid.auction_end %></td>
-	<td align="center"><%= bid.auction_id %></td>
-	<td align="center"><%= bid.maker %></td>
-	<td align="center"><%= bid.bid_threshold %></td>
-	<td align="center"><%= link_to 'more', bid %></td>
+  	<td align="center"><%= bid.maker %></td>
+	<td align="center"><%= bid.total_funds %></td>
+	<td align="center"><%= bid.btc_address %></td>
+	<td align="center"><%= link_to 'details', bid %></td>
+	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
+	 <td><%= link_to 'delete', bid_path(bid),
+                    method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
 </table>
