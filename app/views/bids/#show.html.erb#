@@ -1,0 +1,19 @@
+
+<h4><%= @bid.auction_id %></h4><br>  
+<h7><%= link_to 'complete | >> |', :root %></h7>
+<hr>
+
+<h4><%= @bid.auction_end %></h4><br>
+<h1>$ <%= @bid.bid_threshold %></h1>
+
+<hr>
+
+<h11> POSTED BY: </h11>
+<br>
+<h8><%= @bid.maker %> AT <%= @bid.maker_phone %></h8><br>
+<hr>
+<h11> PLAN </h11> 
+<%= @bid.plan %><hr>
+
+
+<h7><%= link_to 'complete | >> |', bids_path %></h7>
