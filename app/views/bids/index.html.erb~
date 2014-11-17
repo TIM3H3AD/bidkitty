@@ -15,7 +15,7 @@
  <% for bid in @bids %>
   	<td align="center"><%= bid.maker %></td>
   	<td align="center"><%= bid.maker_phone %></td>
-	<td align="center"><%= bid.total_funds %></td>
+	<td align="center"><%= bid.available_funds %></td>
 	<td align="center"><%= bid.btc_address %></td>
 	<td align="center"><%= link_to 'details', bid %></td>
 	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
