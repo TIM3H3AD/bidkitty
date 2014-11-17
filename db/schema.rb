@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141101081125) do
+ActiveRecord::Schema.define(version: 20141102053518) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,24 @@ ActiveRecord::Schema.define(version: 20141101081125) do
     t.string   "wbi_verified"
     t.string   "capital_assets_value"
     t.text     "capital_assets_info"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "lots", force: true do |t|
+    t.integer  "number"
+    t.string   "type"
+    t.string   "name"
+    t.string   "contact"
+    t.string   "wb_verified"
+    t.integer  "funds"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "streets", force: true do |t|
+    t.string   "name"
+    t.string   "direction"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
