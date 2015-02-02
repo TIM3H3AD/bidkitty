@@ -3,8 +3,8 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 config.action_dispatch.default_headers = {
-    'X-Frame-Options' => 'ALLOWALL'
-}
+    'X-Frame-Options' => 'http://floating-brushlands-3375.herokuapp.com/'
+  }
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
