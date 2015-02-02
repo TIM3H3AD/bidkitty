@@ -33,8 +33,4 @@ module RailsDevise
     # config.i18n.default_locale = :de
   end
   
-  config.action_dispatch.default_headers = {
-    'X-Frame-Options' => 'ALLOWALL'
-  }
-  
 end
