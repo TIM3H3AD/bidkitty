@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module RailsDevise
   class Application < Rails::Application
+  	  
+  	    config.action_dispatch.default_headers = {
+  'X-Frame-Options' => 'ALLOWALL'
+}
 
     config.generators do |g|
       g.test_framework :rspec,
@@ -32,9 +36,5 @@ module RailsDevise
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
   end
-  
-  config.action_dispatch.default_headers = {
-  'X-Frame-Options' => 'ALLOWALL'
-}
   
 end
