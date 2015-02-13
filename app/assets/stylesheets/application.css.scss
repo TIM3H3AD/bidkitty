@@ -4,7 +4,7 @@
 
 html {
   overflow-y: scroll;
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -57,7 +57,7 @@ h1 {
   font-family: 'Miltonian', cursive;
   font-size: 5em;
   letter-spacing: 1px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -65,7 +65,7 @@ h2 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 2px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -74,7 +74,8 @@ h3 {
   letter-spacing: 1px;
   color: #AC3030;
   margin-bottom: 2px;
-  text-align: center;
+  margin-left: 30px;
+  text-align: left;
 }
 
 h4 {
@@ -84,7 +85,7 @@ h4 {
   padding-right: 100px;
   padding-left: 100px;
   margin-bottom: 3px;
-  text-align: center;
+  text-align: left;
 }
 
 h5 {
@@ -92,8 +93,9 @@ h5 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  margin-left: 15px;
   color: #2CA44A;
-  text-align: center;
+  text-align: left;
 }
 
 h6 {
@@ -104,6 +106,7 @@ h6 {
   text-align: center;
   font-weight: bold;
   color: #AC3030;
+  text-align: left;
 }
 
 h7 {
@@ -111,15 +114,17 @@ h7 {
   font-size: 4em;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  text-align: center;
+  margin-left: 15px;
+  text-align: left;
 }
 
 h8 {
   font-family: 'Ultra', serif;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 1px;
   margin-bottom: 2px;
-  text-align: center;
+  margin-left: 30px;
+  text-align: left;
 }
 
 h9 {
@@ -127,21 +132,22 @@ font-family: 'Diplomata', cursive;
 font-size: 1.75em;
   letter-spacing: 2px;
   margin-bottom: 2px;
-  text-align: center;
+  text-align: left;
 }
 
 h10 {
   font-family: 'Lily Script One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
-  text-align: center;
+  text-align: left
 }
 
 h11 {
 font-family: 'Sigmar One', cursive;
   font-size: 1.25em;
   letter-spacing: 0px;
-  text-align: center;
+  text-align: left;
+  margin-left: 15px;
 }
 
 h12 {
@@ -149,7 +155,6 @@ h12 {
   font-size: 1.4em;
   letter-spacing: 1px;
   margin-bottom: 3px;
-  text-align: center;
 }
 
 h13 { 
@@ -170,12 +175,12 @@ h14 {
 
 p {
   font-family: 'Inconsolata', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   letter-spacing: 1px;
   padding-right: 100px;
-  padding-left: 100px;
+  padding-left: 50px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 /* header */

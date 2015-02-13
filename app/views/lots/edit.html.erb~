@@ -1,0 +1,6 @@
+<h1>Edit bid</h1>
+<hr>
+<%= link_to 'Back', bids_path %>
+<hr>
+<%= render 'form' %>
+ 

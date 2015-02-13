@@ -11,7 +11,6 @@ body {
     display: inline-block;
     padding-top: 42px;
     margin: 10px auto;
-	text-align: center;
     }
 
 section {
@@ -82,6 +81,8 @@ h4 {
   font-family: 'Sigmar One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
+  padding-right: 100px;
+  padding-left: 100px;
   margin-bottom: 3px;
   text-align: center;
 }
@@ -110,7 +111,6 @@ h7 {
   font-size: 4em;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  text-align: center;
 }
 
 h8 {
@@ -118,7 +118,6 @@ h8 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 2px;
-  text-align: center;
 }
 
 h9 {
@@ -126,21 +125,18 @@ font-family: 'Diplomata', cursive;
 font-size: 1.75em;
   letter-spacing: 2px;
   margin-bottom: 2px;
-  text-align: center;
 }
 
 h10 {
   font-family: 'Lily Script One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
-  text-align: center;
 }
 
 h11 {
 font-family: 'Sigmar One', cursive;
   font-size: 1.25em;
   letter-spacing: 0px;
-  text-align: center;
 }
 
 h12 {
@@ -148,7 +144,6 @@ h12 {
   font-size: 1.4em;
   letter-spacing: 1px;
   margin-bottom: 3px;
-  text-align: center;
 }
 
 h13 { 
@@ -171,8 +166,9 @@ p {
   font-family: 'Inconsolata', sans-serif;
   font-size: 1em;
   letter-spacing: 1px;
+  padding-right: 100px;
+  padding-left: 100px;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 /* header */

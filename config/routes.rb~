@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'static_pages#home'
   
   get '/about' => 'static_pages#about'
+  get '/dlba' => 'static_pages#dlba'
   get '/support' => 'static_pages#support'
   get '/proxy_party'=> 'static_pages#proxy_party'
   
