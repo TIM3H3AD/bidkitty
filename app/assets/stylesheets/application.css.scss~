@@ -11,6 +11,7 @@ body {
     display: inline-block;
     padding-top: 42px;
     margin: 10px auto;
+    text-align: left;
     }
 
 section {
@@ -124,7 +125,7 @@ h8 {
   letter-spacing: 1px;
   margin-bottom: 2px;
   margin-left: 30px;
-  text-align: left;
+  text-align: left
 }
 
 h9 {
@@ -155,6 +156,7 @@ h12 {
   font-size: 1.4em;
   letter-spacing: 1px;
   margin-bottom: 3px;
+  text-align: left
 }
 
 h13 { 
