@@ -29,14 +29,16 @@ textarea {
     background-color: #b0e0e6;
 }
 
-.container {
-    width: 60%;
-    overflow: hidden;    
-}
-
 .col-centered{
     float: none;
     margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    margin-center: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 .center h1 {
