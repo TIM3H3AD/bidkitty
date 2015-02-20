@@ -8,11 +8,9 @@ html {
 }
 
 body {
-    display: inline-block;
     padding-top: 42px;
     margin: 10px auto;
-    float: left;
-    width: 1000px;
+    text-align: justify;
     }
 
 section {
@@ -36,9 +34,7 @@ textarea {
 }
 
 .container {
-    position: absolute;
-    margin-left: auto;
-    width: 70%;
+       width: 70%;
 }
 
 .center h1 {
@@ -64,7 +60,6 @@ h1 {
   font-family: 'Miltonian', cursive;
   font-size: 5em;
   letter-spacing: 1px;
-  text-align: left;
 }
 
 h2 {
@@ -72,7 +67,6 @@ h2 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 2px;
-  text-align: left;
 }
 
 h3 {
@@ -80,19 +74,14 @@ h3 {
   font-size: 1.5em;
   letter-spacing: 1px;
   color: #AC3030;
-  margin-bottom: 2px;
-  margin-left: 30px;
-  text-align: left;
+  margin-bottom: 4px;
 }
 
 h4 {
   font-family: 'Sigmar One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
-  padding-right: 100px;
-  padding-left: 100px;
   margin-bottom: 3px;
-  text-align: left;
 }
 
 h5 {
@@ -100,9 +89,7 @@ h5 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  margin-left: 15px;
   color: #2CA44A;
-  text-align: left;
 }
 
 h6 {
@@ -110,10 +97,8 @@ h6 {
   font-size: 7em;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  text-align: center;
   font-weight: bold;
   color: #AC3030;
-  text-align: left;
 }
 
 h7 {
@@ -121,8 +106,6 @@ h7 {
   font-size: 4em;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  margin-left: 15px;
-  text-align: left;
 }
 
 h8 {
@@ -130,8 +113,6 @@ h8 {
   font-size: 1em;
   letter-spacing: 1px;
   margin-bottom: 2px;
-  margin-left: 30px;
-  text-align: left
 }
 
 h9 {
@@ -139,22 +120,18 @@ font-family: 'Diplomata', cursive;
 font-size: 1.75em;
   letter-spacing: 2px;
   margin-bottom: 2px;
-  text-align: left;
 }
 
 h10 {
   font-family: 'Lily Script One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
-  text-align: left
 }
 
 h11 {
 font-family: 'Sigmar One', cursive;
   font-size: 1.25em;
   letter-spacing: 0px;
-  text-align: left;
-  margin-left: 15px;
 }
 
 h12 {
@@ -162,7 +139,6 @@ h12 {
   font-size: 1.4em;
   letter-spacing: 1px;
   margin-bottom: 3px;
-  text-align: left
 }
 
 h13 { 
@@ -170,7 +146,6 @@ font-family: 'Cutive Mono', serif;
   font-size: 2.25em;
   letter-spacing: 1px;
   margin-bottom: 3px;
-  text-align: bottom;
 }
 
 h14 { 
@@ -178,17 +153,13 @@ h14 {
     font-size: 4em;
     letter-spacing: 1px;
     margin-bottom: 3px;
-    text-align: right;
 }
 
 p {
   font-family: 'Inconsolata', sans-serif;
   font-size: 1.25em;
   letter-spacing: 1px;
-  padding-right: 100px;
-  padding-left: 50px;
   margin-bottom: 10px;
-  text-align: left;
 }
 
 /* header */
