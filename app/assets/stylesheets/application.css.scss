@@ -11,7 +11,8 @@ body {
     display: inline-block;
     padding-top: 42px;
     margin: 10px auto;
-    text-align: left;
+    float: left;
+    width: 1000px;
     }
 
 section {
@@ -35,7 +36,7 @@ textarea {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     margin-left: auto;
     width: 70%;
 }
