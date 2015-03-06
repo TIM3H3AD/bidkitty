@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'cloudinary'
+gem 'sprockets_better_errors'
 
 
 group :development do
