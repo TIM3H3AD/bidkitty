@@ -98,4 +98,6 @@ Rails.application.configure do
   
   #troubleshooting suggestion 
   config.assets.raise_production_errors = true
+  
+  config.serve_static_assets = true
 end
