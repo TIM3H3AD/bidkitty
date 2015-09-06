@@ -1,11 +1,6 @@
 class BidsController < ApplicationController
-  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :destroy
   
-  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :index
-  
-  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :edit
-  
-  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :index
+  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :index, :destroy
   
   http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :edit
   
