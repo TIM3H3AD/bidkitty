@@ -5,6 +5,8 @@
 PROPERTY REQUESTS: <%= Bid.count %>
 <br>
 AVAILABLE FUNDS = <%= number_to_currency(Bid.sum(:available_funds), precision: 2) %> 
+<h4>Use the button below to add your property to the <i>DOVETAIL</i> project database.</h4> 
+<h14><%= link_to 'BUILD YOUR COMMUNITY', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
 <p>
 The DOVETAIL auction defense guild strategy offers:
@@ -40,9 +42,6 @@ For a full presentation on the DOVETAIL, come to:
 <hr>
 </div>
 <div class="span8">
-<hr>
-<h4>Use the button below to add your property to the <i>DOVETAIL</i> project database.</h4> 
-<h14><%= link_to 'BUILD YOUR COMMUNITY', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
 <img src="/assets/dovetail_flyer.jpg"/>
 <hr>
