@@ -2,7 +2,6 @@
   <li><%= link_to 'ABOUT', :about %></li>
   <li><%= link_to 'ADD PROJECT', new_bid_path %></li>
   <li><%= link_to 'CROWDFUND', :support %></li>
-  <li><%= link_to 'NEXT MTG', :proxy_party %></li>
   <li><%= link_to 'TEAM VIEW', bids_path %></li>
 
   

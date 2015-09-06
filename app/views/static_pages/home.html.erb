@@ -5,7 +5,8 @@
 PROPERTY REQUESTS: <%= Bid.count %>
 <br>
 AVAILABLE FUNDS = <%= number_to_currency(Bid.sum(:available_funds), precision: 2) %> 
-<hr> 
+<hr>
+<p>
 The “12% Solution” investment strategy offers 
 <br>A) 12% annual return on your
 investment, backed by 
@@ -47,12 +48,9 @@ Monday, September 7, 7pm at 1959 E. Jefferson, Detroit
 
 <a href="tel:18442893522"><h2>844-289-3522</h2></a>
 <hr>
-<p>
-<h4>(4) add your home to the <%= link_to 'BIDKITTY', new_bid_path %> project database. </h4>
-<p>Whether you are paying your taxes,  the lot next to it or the entire block, <i>bidkitty</i> is here to network community leaders to make property ownership a new form of public work. If you are next to a property and you cannot afford to purchase it, <i>bidkitty</i> will purchase the property on your behalf if you complete the bid request below.
 </div>
 <div class="span8">
-<hr><p>
+<hr>
 <h4>Use the button below to add your property to the <i>turtledove</i> project database.</h4> 
 <h14><%= link_to 'BUILD YOUR COMMUNITY', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
