@@ -23,35 +23,15 @@ ActiveRecord::Schema.define(version: 20141102053518) do
     t.string   "auction_id"
     t.string   "street_number"
     t.string   "street_name"
-    t.string   "total_funds"
+    t.integer  "total_funds"
+    t.integer  "bid_threshold"
     t.datetime "auction_end"
     t.string   "btc_address"
     t.text     "plan"
     t.string   "unique_name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "bid_threshold"
     t.integer  "available_funds"
-  end
-
-  create_table "coins", force: true do |t|
-    t.string   "xdp_name"
-    t.string   "xdp_address"
-    t.string   "btc_address"
-    t.string   "proof_of_reserve"
-    t.string   "title"
-    t.text     "info"
-    t.string   "webpage"
-    t.string   "dev_name"
-    t.string   "dev_contact"
-    t.string   "image_1"
-    t.string   "image_2"
-    t.string   "image_3"
-    t.string   "wbi_verified"
-    t.string   "capital_assets_value"
-    t.text     "capital_assets_info"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "lots", force: true do |t|
