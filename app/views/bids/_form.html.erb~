@@ -28,20 +28,14 @@
     <%= f.text_field :street_name %>
   </p>
   <hr>
-   <p>Contact & Funding Information<p>
-  <p>
+     <p>
     <%= f.label :phone_number %><br>
     <%= f.text_field :maker_phone %>
   </p>
  
-  <p>
-    <%= f.label :bitcoin_addresss_for_funding %> <a href="https://blockchain.info/wallet/new" target="_blank"> (GET A BITCOIN ADDRESS HERE)</a><br>
-    <%= f.text_field :btc_address %>
-  </p>
-  
  <p>
-    <%= f.label :available_funding %><br>
-    <%= f.text_field :available_funds %>
+    <%= f.label :available_funds %><br>
+    <%= f.number_field :available_funds %><br>Please use a (-) sign to request financial support for back taxes. example -1234.56
   </p>
   <hr>
   <p>

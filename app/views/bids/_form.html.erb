@@ -11,13 +11,13 @@
   </div>
 <% end %>
 <hr>
-<p>Start here:</p>
+<h1>Start here:</p>
  <p>
-    <%= f.label :lot_holder_name_or_contact %><br>
+    <%= f.label :your_name %><br>
     <%= f.text_field :maker%>
   </p>
  <hr> 
- <p>ADDRESS w/ near available lots<p>
+ <p>ADDRESS of primary house or lot at auction<p>
    <p>
     <%= f.label :street_number %><br>
     <%= f.text_field :street_number %>
@@ -29,7 +29,7 @@
   </p>
   <hr>
      <p>
-    <%= f.label :phone_number %><br>
+    <%= f.label :your_phone_number %><br>
     <%= f.text_field :maker_phone %>
   </p>
  
@@ -41,6 +41,8 @@
   <p>
     <%= f.label :your_plan_for_the_property %><br>
     <%= f.text_area :plan %>
+    <br>if there are multiple lots of interest, please list them here.<p>
+
   </p>
 
   <p>
