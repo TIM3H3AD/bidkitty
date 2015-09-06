@@ -4,7 +4,7 @@ class BidsController < ApplicationController
   
   http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :edit
   
-  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :delete
+  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :destroy
   
 def new
 @bid = Bid.new
@@ -46,9 +46,9 @@ def index
   @bids = Bid.all.order(:maker)
 end
 
-def delete
+def destroy
   @bid = Bid.find(params[:id])
-  @bid.delete
+  @bid.destroy
  
   redirect_to bids_path
 end
