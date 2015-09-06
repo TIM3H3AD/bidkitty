@@ -48,7 +48,7 @@ end
 
 def delete
   @bid = Bid.find(params[:id])
-  @bid.destroy
+  @bid.delete
  
   redirect_to bids_path
 end
