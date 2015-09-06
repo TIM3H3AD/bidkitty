@@ -1,42 +1,53 @@
 <div class="span4" margin-left: auto; margin-right: auto;>
-<img src="/assets/pROXY.jpg"/><h1>bidkitty</h1><h4>DETROIT</h4><hr>
-<h3>bright_bundler</h3> 
+<img src="/assets/dovetail_logo.jpg"/><h1>DOVETAIL</h1><h4>auction defense guild</h4><hr>
+<h3>neighbors investing in neighbors</h3> 
 <p> 
-PROJECTS SUBMITTED: <%= Bid.count %>
+PROPERTY REQUESTS: <%= Bid.count %>
 <br>
 AVAILABLE FUNDS = <%= number_to_currency(Bid.sum(:available_funds), precision: 2) %> 
-<p> 
-<i>bidkitty</i> is a resource designed to support potential landholders in completing the requirements of the Detroit's Land Bank's SIDELOT PROGRAM. <i>bidkitty</i> is building a database of "lothouses" and project leaders to network with our networked capital and build some unique nodes for new work and new culture.
-<h2>4 steps to be a bidkitty "lothouse"</h2>
-<hr>
-<h4>(1) Find <a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992" target="_blank">$100 lots</a> near you!</h4>
-<p>
-Many homes in Detroit neighbor a number of vacant lots that attract illegal dumping and other crimes. Coordinated community purchasing increases the quantity, value and diversification of Detroit's land owners. These local networks ensure that Detroit remains owned by intention/action and not just speculation.
-<p>
-<p><a href="https://whydontweownthis.com/2014/mi/wayne/detroit#11/42.3529/-83.0992" target="_blank">Check for available side lots HERE on WDWOT.com</a>
 <hr>
 <p>
-<h4>(2) Pay your taxes!</h4>
-<p>
-You need to have your taxes paid in order to purchase its side lots. If you cannot afford to pay your taxes, please consider asking for support from <i>bidkitty</i> by filling out a bid request and putting your total taxes owed as a NEGATIVE number in the "funds available" field. Our goal is to network community leaders with you and your lots today!
-<p>
-<a href="http://waynecounty.com/treasurer/treasurer_payonline.htm" target="_blank">PAY PAST DUE 2013</a>
-<p>
-<a href="http://www.detroitmi.gov/DepartmentsandAgencies/Finance/TreasuryDivision/PayCurrentYearPropertyTax.aspx" target="_blank">PAY PAST DUE 2014</a>
+The DOVETAIL auction defense guild strategy offers:
+<p>A) immediate support for Detroit families facing eviction due to the pending 2015 Wayne county property auction,
+<br>B) strategic support for communities and individuals who want to acquire multiple lots but cannot afford the $10K auction ticket which has seen a 100% increase in price over the last year.
+<p>C) access to guild networks and resources for property maintenance and improvement.
 <hr>
-<h4>(3) Contact BUILDING DETROIT <br> <a href="http://www.buildingdetroit.org/" target="_blank">online</a> or by phone at</h4>
-<a href="tel:18442893522"><h2>844-289-3522</h2></a>
-<hr>
+DOVETAIL will
+purchase as many properties requested by YOU as funds allow and, following the
+auction close, would further negotiate with local guilds for rights of first refusals,
+continued investment and/or sales of those earmarked properties. The purchase
+and activation of a “Turtle Dove Building” will also back initial investment and
+provide an office headquarters for the group of 9 local guilds in the Detroit
+footprint: the seven city council districts, plus Hamtramck, Highland Park.
 <p>
-<h4>(4) add your home to the <%= link_to 'BIDKITTY', new_bid_path %> project database. </h4>
-<p>Whether you are paying your taxes,  the lot next to it or the entire block, <i>bidkitty</i> is here to network community leaders to make property ownership a new form of public work. If you are next to a property and you cannot afford to purchase it, <i>bidkitty</i> will purchase the property on your behalf if you complete the bid request below.
+In addition to activating vacant properties, the DOVETAIL strategy addresses Detroit’s tax
+foreclosure crisis for occupied properties. If a family’s home is under tax
+foreclosure, Turtle Dove will attempt to buy their property in the tax auction to sell
+and/or finance it back to the family, keeping them in their home and preserving
+the neighborhood. Local housing/anti-foreclosure groups in our network enable
+this work.
+<p>
+DOVETAIL is a way for neighbors to activate property in their area, help
+keep families who are under tax foreclosure in their homes and is ultimately an
+investment in the land, people and city of Detroit. To join this community
+revitalization effort, call: 313-649-7918 or email: info@turtledovedetroit.com
+<p>
+For a full presentation on the DOVETAIL, come to:
+<br>
+Saturday, September 5, 7pm at Red Door Digital, 7500 Oakland Ave, Detroit
+<br>
+Monday, September 7, 7pm at 1959 E. Jefferson, Detroit
+<hr>
+
+<a href="tel:13136497918"><h2>313-649-7918</h2></a>
+<hr>
 </div>
 <div class="span8">
-<hr><p>
-<h4>Use the button below to add your home to the <i>bidkitty</i> project database.</h4> 
+<hr>
+<h4>Use the button below to add your property to the <i>turtledove</i> project database.</h4> 
 <h14><%= link_to 'BUILD YOUR COMMUNITY', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
-<h4>[detroit v.04 alpha]</h4> 
-<a href="mailto:whalebone.earth@gmail.com">[ARC]</a>
+<h4>[turtledoveDETROIT]</h4> 
+<a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
 
 
