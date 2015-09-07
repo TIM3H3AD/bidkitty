@@ -21,7 +21,7 @@
         <td align="center"><%= bid.auction_end %></td>
         <td align="center"><%= bid.street_number %><%= bid.street_name %> </td>
 	<td align="center"><%= number_to_currency(bid.bid_threshold) %></td>
-	<td align="center"><%= bid.available_funds %></td> 
+	<td align="center"><%= number_to_currency(bid.available_funds) %></td> 
   	<td align="center"><%= bid.maker %></td>
   	<td align="center"><%= bid.maker_phone %></td>
 	<td align="center"><%= bid.unique_name %></td>
