@@ -3,24 +3,31 @@
 <p>
 <table class="table table-striped">
   <tr align="middle">
+    	<th align="center">ID</th>
+  	<th align="center">END</th>
+	<th align="center">ADDRESS</th>
+	<th align="center">MAX BID</th>
+  	<th align="center">AVAILABLE</th>
   	<th align="center">NAME</th>
-  	<th align="center">CONTACT</th>
-	<th align="center">FUNDS</th>
-	<th align="center">BITCOIN</th>
+	<th align="center">#</th>
+	<th align="center">PROJECT</th>
 	<th></th>
 	<th></th>
 	<th></th>
     </tr>
   <tr valign="middle">
  <% for bid in @bids %>
+        <td align="center"><%= bid.auction_id %></td>
+        <td align="center"><%= bid.auction_end %></td>
+        <td align="center"><%= bid.street_number %><%= bid.street_name %> </td>
+	<td align="center"><%= bid.bid_threshold %></td>
+	<td align="center"><%= bid.available_funds %></td> 
   	<td align="center"><%= bid.maker %></td>
   	<td align="center"><%= bid.maker_phone %></td>
-	<td align="center"><%= bid.available_funds %></td>
-	<td align="center"><%= bid.btc_address %></td>
+	<td align="center"><%= bid.unique_name %></td>
 	<td align="center"><%= link_to 'details', bid %></td>
 	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
-	 <td><%= link_to 'destroy', bid_path(bid),
-                    method: :destroy, data: { confirm: 'Are you sure?' } %></td>
+        <td align="center"><%= link_to 'delete', bid_path(bid), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
 </table>
