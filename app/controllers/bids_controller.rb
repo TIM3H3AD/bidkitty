@@ -4,7 +4,7 @@ class BidsController < ApplicationController
   
   http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :edit
   
-  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :destroy
+  http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :destroy
   
 def new
 @bid = Bid.new
