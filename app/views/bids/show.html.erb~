@@ -17,31 +17,4 @@
 <%= @bid.plan %>
 <hr>
 <h7><%= link_to 'complete | >> |', bids_path %></h7>
-<hr>
-<h1>PLOT BUILDER</h1>
-<hr>
-<%= link_to 'ADD STREET', new_street_path(street) %>
-<hr>
-<h1>PLOT BUILDER</h1>
-<table class="table table-striped">
-  <tr align="middle">
-  	<th align="center">NAME</th>
-  	<th align="center">DIRECTION</th>
-	<th align="center">TYPE</th>
-	<th></th>
-	<th></th>
-	<th></th>
-    </tr>
-  <tr valign="middle">
- <% for bid in @bids %>
-  	<td align="center"><%= bid.maker %></td>
-  	<td align="center"><%= bid.maker_phone %></td>
-	<td align="center"><%= bid.available_funds %></td>
-	<td align="center"><%= bid.btc_address %></td>
-	<td align="center"><%= link_to 'details', bid %></td>
-	<td align="center"><%= link_to 'edit', edit_bid_path(bid) %></td>
-	 <td><%= link_to 'delete', bid_path(bid),
-                    method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
- <% end %>
-</table>
+
