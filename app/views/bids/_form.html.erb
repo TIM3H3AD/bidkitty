@@ -74,8 +74,8 @@
     <%= f.text_field :btc_address %>
   </p>
   <p>  
-    <%= f.label :your_plan_for_the_property %>
-    <%= f.text_area :plan %>
+    <%= f.label :your_plan_for_the_property %><br>
+    <%= f.text_area (:plan, :body, cols: 20, rows: 40) %>
    </p>
 
   <p>
