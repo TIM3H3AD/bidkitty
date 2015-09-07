@@ -11,13 +11,13 @@
   </div>
 <% end %>
 <hr>
-<p>Start here:</p>
+<h1>Start here:</h1>
  <p>
-    <%= f.label :lot_holder_name_or_contact %><br>
+    <%= f.label :property_owner_or_primary_contact %><br>
     <%= f.text_field :maker%>
   </p>
  <hr> 
- <p>ADDRESS w/ near available lots<p>
+ <p>ADDRESS of primary house or lot in auction<p>
    <p>
     <%= f.label :street_number %><br>
     <%= f.text_field :street_number %>
@@ -29,7 +29,7 @@
   </p>
   <hr>
      <p>
-    <%= f.label :phone_number %><br>
+    <%= f.label :your_phone_number %><br>
     <%= f.text_field :maker_phone %>
   </p>
  
@@ -38,10 +38,11 @@
     <%= f.number_field :available_funds %><br>Please use a (-) sign to request financial support for back taxes. example -1234.56
   </p>
   <hr>
-  <p>
-    <%= f.label :your_plan_for_the_property %><br>
+  <p>  
+    <%= f.label :your_plan_for_the_property %>
+    <br>if there are multiple lots, please list them here.<br>
     <%= f.text_area :plan %>
-  </p>
+   </p>
 
   <p>
     <%= f.submit %>
