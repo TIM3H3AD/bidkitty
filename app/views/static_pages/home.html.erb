@@ -1,4 +1,9 @@
 <div class="span4" margin-left: auto; margin-right: auto;>
+<h8>
+"If neighborhoods had access to capital for the purpose of purchasing 
+properties in the upcoming Wayne County Tax Auction, what would they 
+do with it?"</h8>
+<hr>
 <img src="/assets/turtledove_logo.jpg"/><h1>TURTLEDOVE</h1><h4>12% solution</h4><hr>
 <h3>neighbors for neighbors</h3> 
 <p> 
@@ -7,11 +12,6 @@ PROPERTY REQUESTS: <%= Bid.count %>
 AVAILABLE FUNDS = <%= number_to_currency(Bid.sum(:available_funds), precision: 2) %> 
 <h4>Use the button below to add your property to the <i>TURTLEDOVE</i> project database.</h4> 
 <h14><%= link_to 'START BID REQUEST', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
-<hr>
-<h8>
-"If neighborhoods had access to capital for the purpose of purchasing 
-properties in the upcoming Wayne County Tax Auction, what would they 
-do with it?"</h8>
 <hr>
 <p>
 Turtle Dove's "12% Solution" is a way for neighbors to collectively 
