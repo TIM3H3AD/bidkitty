@@ -1,8 +1,56 @@
+<p>
+TURTLEDOVE is designed to be decentralized and inclusive. If you would like to be listed as a partner, please email our TECH TEAM at <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a> 
+<p>
+There is NO FEE to be listed as a partner.
+<p>
+If you would like to join out TECH TEAM of proxy bidders, please email <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>
+<p>
+The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of your neighbors or community. 
+<p>
+Donations are greatly appreciated. Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
+<hr>
 <h8>PARTNERS</h8>
+<hr>
+gnf&D
 <p>
-To join our proxy bid team of technologists and computer illiterates, pls call 313-740-7798.
+BlackTopFarms
 <p>
-List of partners will be available soon. 
+abdn
+<p>
+CityRepair
+<p>
+re:port/detroit
+<p>
+Midnight Farmer's Market
+<p>
+New Work New Veillance
+<p>
+ModelFunding
+<p>
+a2idop
+<p>
+2didop
+<p>
+4$F
+<p>
+Whalebone Intergalactic Cafe Banco
+<p>
+@rc Espresso & Trade
+<p>
+TVINAB
+<p>
+eyemediae
+<p>
+PitchMonday
+<p>
+PXCIL
+<p>
+MeToo! Cafe
+<p>
+NewsFirst
+<p>
+AfterCinema
+<hr>
 <p>
 For information about the TURTLEDOVE community or "Turtle Dove Building" or questions from accredited investors, please call: <a href="tel:3136497918"><h2>313-649-7918</h2></a>
 <hr>
@@ -15,3 +63,7 @@ For support with completing your project support request, please call: <a href="
 <img src="/assets/12_percent_bw.jpg"/>
 <hr>
 <img src="/assets/12_percent_legal_bw.jpg"/>
+<hr>
+<img src="/assets/a2idop.jpg"/>
+<hr>
+<img src="/assets/2didop.jpg"/>
