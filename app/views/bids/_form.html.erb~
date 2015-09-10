@@ -12,12 +12,25 @@
 <% end %>
 <hr>
 <h1>Start here:</h1>
- <p>
-    <%= f.label :property_owner_or_primary_contact %><br>
+ <p>*Please complete this form for each property you would like support in securing.
+ <hr>
+ <strong>PERSONAL DATA</strong>
+  <p>
+    <%= f.label :current_resident_OR_primary_contact %><br>
     <%= f.text_field :maker%>
   </p>
+   <p>
+    <%= f.label :contact_phone_number %><br>
+    <%= f.text_field :maker_phone %>
+  </p>
+  <p>
+    <%= f.label :contact_email %><br>
+    <%= f.text_field :maker_email %>
+  </p>
  <hr> 
- <p>ADDRESS of primary house or lot in auction<p>
+ <strong>PROPERTY DATA</strong>
+ <p>
+   ADDRESS of primary house or lot in auction<p>
    <p>
     <%= f.label :street_number %><br>
     <%= f.text_field :street_number %>
@@ -28,19 +41,40 @@
     <%= f.text_field :street_name %>
   </p>
   <hr>
-     <p>
-    <%= f.label :your_phone_number %><br>
-    <%= f.text_field :maker_phone %>
-  </p>
- 
+ <strong>AUCTION DATA</strong>
  <p>
-    <%= f.label :available_funds %><br>
-    <%= f.number_field :available_funds %><br>Please use a (-) sign to request financial support for back taxes. example -1234.56
+    <%= f.label :auction_number %><br>
+    <%= f.number_field :auction_id %>
+  </p>
+  <p>
+    <%= f.label :auction_end %><br>
+    <%= f.datetime_select :auction_end %>
+  </p>
+  <p>
+    <%= f.label :auction_starting_bid %><br>
+    <%= f.number_field :total_funds %>
+  </p>
+  <p>
+    <%= f.label :your_maximum_bid %><br>
+    You will be required to pay this amount back within 2 years at 12% annual interest.<br>
+    <%= f.text_field :bid_threshold %>
+  </p>
+  <p>
+    <%= f.label :current_funds_available %><br>
+    <%= f.number_field :available_funds %><br>Please use a (-) sign to request financial support for back taxes. example -1200
   </p>
   <hr>
+ <strong>PROJECT DATA</strong>  
+  <p>
+    <%= f.label :project_name %><br>
+    <%= f.text_field :unique_name %>
+  </p>
+  <p>
+    <%= f.label :bitcoin_address %><br>
+    <%= f.text_field :btc_address %>
+  </p>
   <p>  
-    <%= f.label :your_plan_for_the_property %>
-    <br>if there are multiple lots, please list them here.<br>
+    <%= f.label :your_plan_for_the_property %><br>
     <%= f.text_area :plan %>
    </p>
 
