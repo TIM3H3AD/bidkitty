@@ -12,9 +12,6 @@
 <hr><p><i>ADDRESS:</i>
 <h4><%= @bid.street_number %> <%= @bid.street_name %></h4>
 <hr>
-
-<h7><%= link_to 'complete | >> |', :root %></h7>
-<hr>
 <h11> POSTED BY: </h11>
 <br>
 <h8><%= @bid.maker %> <br>
@@ -25,7 +22,11 @@
 
 <h11> <%= @bid.unique_name %> </h11><p>
 <%= @bid.plan %><p>
-<%= @bid.btc_address %>
 <hr>
-<h7><%= link_to 'complete | >> |', bids_path %></h7>
+<p>
+Please use your browser's BACK button to make any adjustments. 
+<p>
+Once you click complete, you will return to our home page.
+<p>
+<h7><%= link_to 'complete | >> |', :root %></h7>
 
