@@ -11,81 +11,78 @@
   </div>
 <% end %>
 <hr>
-<h1>Start here:</h1>
- <p>*Please complete this form for each property you would like support in securing.
- <hr>
- <strong>PERSONAL DATA</strong>
+ <h8>PERSONAL DATA</h8>
   <p>
     <%= f.label :current_resident_OR_primary_contact %><br>
-    Please type ANONYMOUS, if you do not want to be contacted or connected with the purchase of this parcel.<b>
     <%= f.text_field :maker%>
-  </p>
+    Please type ANONYMOUS, if you do not want to be contacted or connected with the purchase of this parcel.<b>
+   </p>
+   <hr>
    <p>
     <%= f.label :contact_phone_number %><br>
+    <%= f.text_field :maker_phone %><br>
     If left blank, we will not be able to contact you to discuss bid strategy or your project vision.<b>
-    <%= f.text_field :maker_phone %>
   </p>
+  <hr>
   <p>
     <%= f.label :contact_email %><br>
+    <%= f.text_field :maker_email %><br>
         If left blank, we will not be able to contact you to discuss bid strategy or your project vision.<b>
-    <%= f.text_field :maker_email %>
-  </p>
+   </p>
  <hr> 
- <strong>PROPERTY DATA</strong>
+ <h8>PROPERTY DATA</h8>
  <p>
  Please use <%= link_to "LOVELAND", "https://makeloveland.com/2015/mi/wayne/detroit#b=neighborhoods", :target => "_blank" %> to locate or confirm the data in this section.
  <p>
-   ADDRESS of primary house or sidelot in the auction (*)<p>
    <p>
     <%= f.label :street_number %><br>
-    <%= f.text_field :street_number %>
+    <%= f.text_field :street_number %>(*)
   </p>
 
    <p>
     <%= f.label :street_name %><br>
-    <%= f.text_field :street_name %>
+    <%= f.text_field :street_name %>(*)
   </p>
   <hr>
- <strong>AUCTION DATA</strong>
+ <h8>AUCTION DATA</h8>
  <p>
- Please use <%= link_to "Wayne County Property Auction", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %> to locate this data. You can use the address and street number to find this data on <%= link_to "THIS", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %>
+ Please use <%= link_to "WAYNE COUNTY", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %> to locate this data. You can use the address and street number to find this data on <%= link_to "THIS", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %>
  page.
  <p>
     <%= f.label :parcel_id %><br>
-    <%= f.number_field :auction_id %>
+    <%= f.number_field :auction_id %>(*)
   </p>
   <p>
     <%= f.label :auction_end_time %><br>
-    Once you find your property on <%= link_to "THIS", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %> page you can enter the auction end time. We sort our data by auction end time to organize our bidding.<b>
-    <%= f.datetime_select :auction_end %>
+    <%= f.datetime_select :auction_end %>(*)
+ 
   </p>
   <p>
     <%= f.label :auction_starting_bid %><br>
-    <%= f.number_field :total_funds %>
+    <%= f.number_field :total_funds %>(*)
   </p>
   <p>
     <%= f.label :your_maximum_bid %><br>
+     <%= f.text_field :bid_threshold %>(*)
     This is your maximum valuation for the property in which you are interested. If TURTLEDOVE successfully wins this parcel, you or your community/guild will be required to pay this amount back within 2 years at 12% annual interest.<br>
-    <%= f.text_field :bid_threshold %>
-  </p>
+   </p>
   <p>
     <%= f.label :current_funds_available %><br>
-    This is the amount of money you have available to support TURTLEDOVE in purchasing this property at auction.<br>
-    <%= f.number_field :available_funds %><br> 
-    If you do not currently have funds available, enter "0" or use a (-) sign to request financial support for back taxes. example -1200
+    <%= f.number_field :available_funds %>(*)<br>
+     This is the amount of money you have available to support TURTLEDOVE in purchasing this property at auction. If you do not currently have funds available, enter "0" or use a (-) sign to request financial support for back taxes. example -1200
   </p>
   <hr>
- <strong>PROJECT DATA</strong>  
+ <h8>PROJECT DATA</h8>  
   <p>
     <%= f.label :project_name %><br>
+    <%= f.text_field :unique_name %>
     Please use this field to link multiple parcels for projects like farms, gardens or recreation space. Your project may be selected for a unique development page and this name would be used on our <%= link_to 'ABOUT', :about %> page and the web address. For example: <%= link_to "turtledovedetroit.com/wb", "https://www.turtledovedetroit.com/wb", :target => "_blank" %><br>
-     <%= f.text_field :unique_name %>
   </p>
 
   <p>  
     <%= f.label :your_plan_for_the_property %><br>
-    Please give us a brief description of your project vision AND/OR any special requests you may have on prioritizing multiple bid requests. This is especially important if you plan to contribute additional funds to TURTLEDOVE for the purchase of a particular property.
     <%= f.text_area :plan %>
+    Please give us a brief description of your project vision AND/OR any special requests you may have on prioritizing multiple bid requests. This is especially important if you plan to contribute additional funds to TURTLEDOVE for the purchase of a particular property.
    </p>
    
   <p>
