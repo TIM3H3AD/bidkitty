@@ -44,7 +44,6 @@ end
 
 def index
   @bids = Bid.all.order(:auction_end)
-  @total_funds_needed = (Bid.sum('auction_starting_bid') - (Bid.sum('available_funds'))
 end
 
 def destroy
