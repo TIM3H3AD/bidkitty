@@ -1,3 +1,3 @@
 class Bid < ActiveRecord::Base
-  validates :maker, :maker_phone, :auction_id, :auction_end, :bid_threshold, :total_funds, :plan, :presence => true
+  validates :auction_id, :auction_end, :street_number, :street_name, :available_funds, :bid_threshold, :total_funds,  :presence => true
 end

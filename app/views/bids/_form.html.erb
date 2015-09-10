@@ -49,14 +49,13 @@
  Please use <%= link_to "WAYNE COUNTY", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %> to locate this data. You can use the address and street number to find this data on <%= link_to "THIS", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %>
  page.
  <p>
-    <%= f.label :parcel_id %><br>
+    <%= f.label :parcel_identification %><br>
     <%= f.number_field :auction_id %>(*)
   </p>
   <p>
     <%= f.label :auction_end_time %><br>
     <%= f.datetime_select :auction_end %>(*)
- 
-  </p>
+   </p>
   <p>
     <%= f.label :auction_starting_bid %><br>
     <%= f.number_field :total_funds %>(*)
@@ -82,7 +81,7 @@
   <p>  
     <%= f.label :your_plan_for_the_property %><br>
     <%= f.text_area :plan %><br>
-    Please give us a brief description of your project vision AND/OR any special requests you may have on prioritizing multiple bid requests. This is especially important if you plan to contribute additional funds to TURTLEDOVE for the purchase of a particular property.
+    Please give a brief description of your project vision AND/OR any special requests you may have on prioritizing multiple bid requests. This is especially important if you plan to contribute additional funds to TURTLEDOVE for the purchase of a particular property.
    </p>
    
   <p>
