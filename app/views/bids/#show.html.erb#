@@ -1,0 +1,27 @@
+<hr>
+<p><i>AUCTION ID:</i>
+<h4><%= @bid.auction_id %></h4><br>  
+<p><i>AUCTION END:</i>
+<h4><%= @bid.auction_end %></h4><br>
+<p><i>STARTING BID:</i>
+<%= @bid.total_funds %>
+<p><i>BID THRESHOLD:</i>
+<%= @bid.bid_threshold %>
+<p><i>AVAILABLE FUNDS:</i>
+<%= @bid.available_funds %>
+<hr><p><i>ADDRESS:</i>
+<h4><%= @bid.street_number %> <%= @bid.street_name %></h4>
+<hr>
+<h11> POSTED BY: </h11>
+<br>
+<h8><%= @bid.maker %> <br>
+<%= @bid.maker_phone %><br>
+<%= @bid.maker_email %></h8>
+
+<hr>
+
+<h11> <%= @bid.unique_name %> </h11><p>
+<%= @bid.plan %><p>
+<hr>
+<h7><%= link_to 'complete | >> |', bids_path %></h7>
+
