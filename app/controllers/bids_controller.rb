@@ -31,7 +31,7 @@ end
 def update
   @bid = Bid.find(params[:id])
  
-  if @bid.update_attributes(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :available_funds, :street_name, :street_number, :total_funds, :plan, :unique_name))
+  if @bid.update_attributes(params[:bid].permit(:auction_end, :auction_id, :bid_threshold, :btc_address, :maker, :maker_email, :maker_phone, :available_funds, :street_name, :street_number, :total_funds_borrowed, :plan, :unique_name))
     redirect_to @bid
   else
     render 'edit'
@@ -44,6 +44,7 @@ end
 
 def index
   @bids = Bid.all.order(:auction_end)
+  @total_funds_needed = (Bid.sum('auction_starting_bid') - (Bid.sum('available_funds'))
 end
 
 def destroy

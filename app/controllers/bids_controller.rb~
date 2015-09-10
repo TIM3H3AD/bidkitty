@@ -1,6 +1,6 @@
 class BidsController < ApplicationController
   
-  http_basic_authenticate_with name: "TDcrew", password: "12p313", only: :index
+  http_basic_authenticate_with name: "hans", password: "barbe", only: :index
   
   http_basic_authenticate_with name: "whalebone", password: "theonlyescape", only: :edit
   

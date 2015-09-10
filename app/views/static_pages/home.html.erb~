@@ -1,11 +1,20 @@
 <div class="span4" margin-left: auto; margin-right: auto;>
 <hr>
+<h11><%= link_to "Culture Lab Detroit", "http://culturelabdetroit.org/september10.html", :target => "_blank" %></h11>
+<hr>
 <h8>
 "If neighborhoods had access to capital for the purpose of purchasing 
 properties in the upcoming Wayne County Tax Auction, what would they 
 do with it?"</h8>
 <hr>
-<img src="/assets/turtledove_logo.jpg"/><h1>TURTLEDOVE</h1><h4>12% solution</h4><hr>
+<table class="table table-striped">
+  <tr align="middle">
+	<td><img src="/assets/turtledove_logo.jpg"/></td>
+	<td><img src="/assets/spirit_of_detroit.jpg"/></td>
+  </tr>
+</table>
+<hr>
+<h1>TURTLEDOVE</h1><h4>12% solution</h4><hr>
 <h3>neighbors for neighbors</h3> 
 <p> 
 PROPERTY SUPPORT REQUESTS: <%= Bid.count %>
@@ -41,12 +50,16 @@ revitalization effort, call <a href="tel:13136497918"><h2>313-649-7918</h2></a> 
 <hr>
 </div>
 <div class="span8">
+<h8>FLYERS</h8>
 <img src="/assets/12_percent_color.jpg"/>
 <hr>
 <img src="/assets/12_percent_bw.jpg"/>
 <hr>
 <img src="/assets/12_percent_legal_bw.jpg"/>
 <hr>
-<h4>[turtledoveDETROIT]</h4> 
+<img src="/assets/a2idop.jpg"/>
+<hr>
+<img src="/assets/2didop.jpg"/>
+</div>
 
 
