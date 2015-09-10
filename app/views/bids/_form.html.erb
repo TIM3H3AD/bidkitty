@@ -52,19 +52,23 @@
     <%= f.label :parcel_identification %><br>
     <%= f.number_field :auction_id %>(*)
   </p>
+  <hr>
   <p>
     <%= f.label :auction_end_time %><br>
     <%= f.datetime_select :auction_end %>(*)
    </p>
+   <hr>
   <p>
     <%= f.label :auction_starting_bid %><br>
     <%= f.number_field :total_funds %>(*)
   </p>
+  <hr>
   <p>
     <%= f.label :your_maximum_bid %><br>
      <%= f.text_field :bid_threshold %>(*)<br>
     This is your maximum valuation for the property in which you are interested. If TURTLEDOVE successfully wins this parcel, you or your community/guild will be required to pay this amount back within 2 years at 12% annual interest.<br>
    </p>
+   <hr>
   <p>
     <%= f.label :current_funds_available %><br>
     <%= f.number_field :available_funds %>(*)<br>
@@ -77,7 +81,7 @@
     <%= f.text_field :unique_name %><br>
     Please use this field to link multiple parcels for projects like farms, gardens or recreation space. Your project may be selected for a unique development page and this name would be used on our <%= link_to 'ABOUT', :about %> page and the web address. For example: <%= link_to "turtledovedetroit.com/wb", "https://www.turtledovedetroit.com/wb", :target => "_blank" %>
   </p>
-
+<hr>
   <p>  
     <%= f.label :your_plan_for_the_property %><br>
     <%= f.text_area :plan %><br>
