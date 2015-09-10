@@ -1,8 +1,8 @@
 <%= form_for @bid do |f| %>
   <% if @bid.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@bid.errors.count, "error") %> prohibited
-      this bid from being saved:</h2>
+    <p><%= pluralize(@bid.errors.count, "error") %> prohibited
+      this bid from being saved:</p>
     <ul>
     <% @bid.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
@@ -60,7 +60,7 @@
    <hr>
   <p>
     <%= f.label :auction_starting_bid %><br>
-    <%= f.number_field :total_funds %>(*)
+    <%= f.number_field :auction_starting_bid %>(*)
   </p>
   <hr>
   <p>
