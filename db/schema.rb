@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141102053518) do
+ActiveRecord::Schema.define(version: 20150910191121) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20141102053518) do
     t.string   "auction_id"
     t.string   "street_number"
     t.string   "street_name"
-    t.integer  "total_funds"
+    t.integer  "total_funds_borrowed"
     t.integer  "bid_threshold"
     t.datetime "auction_end"
     t.string   "btc_address"
@@ -32,24 +32,9 @@ ActiveRecord::Schema.define(version: 20141102053518) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "available_funds"
-  end
-
-  create_table "lots", force: true do |t|
-    t.integer  "number"
-    t.string   "type"
-    t.string   "name"
-    t.string   "contact"
-    t.string   "wb_verified"
-    t.integer  "funds"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "streets", force: true do |t|
-    t.string   "name"
-    t.string   "direction"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string   "auction_starting_bid"
+    t.string   "estimated_funds_needed"
+    t.string   "total_payments_made"
   end
 
   create_table "users", force: true do |t|
