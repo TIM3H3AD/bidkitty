@@ -1,11 +1,5 @@
 class IntersectionsController < ApplicationController
- 
-  http_basic_authenticate_with name: "hans", password: "barbe", only: :index
-  
-  http_basic_authenticate_with name: "hans", password: "barbe", only: :edit
-  
-  http_basic_authenticate_with name: "barbe", password: "barbe", only: :destroy
-  
+   
 def new
 @intersection = Intersection.new
 end
