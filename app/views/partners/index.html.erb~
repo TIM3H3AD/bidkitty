@@ -13,7 +13,7 @@
 	<th></th>
     </tr>
   <tr valign="middle">
- <% for intersection in @intersections %>
+ <% for intersection @intersections %>
         <td align="center"><%= intersection.street_one %> AND <%= intersection.street_two %></td>
         <td align="center"><%= intersection.messenger %></td>
         <td align="center"><%= intersection.contact %></td>

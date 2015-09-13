@@ -1,10 +1,10 @@
-<%= form_for @intersection do |f| %>
-  <% if @intersection.errors.any? %>
+<%= form_for @partner do |f| %>
+  <% if @partner.errors.any? %>
   <div id="error_explanation">
-    <p><%= pluralize(@intersection.errors.count, "error") %> prohibited
-      this intersection from being saved:</p>
+    <p><%= pluralize(@partner.errors.count, "error") %> prohibited
+      this partner from being saved:</p>
     <ul>
-    <% @intersection.errors.full_messages.each do |msg| %>
+    <% @partner.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
     <% end %>
     </ul>
@@ -12,29 +12,26 @@
 <% end %>
 <hr>
    <p>
-    <%= f.label :street_one %><br>
-    <%= f.text_field :street_one %>(*)
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>(*)
    </p>
    <p>
-    <%= f.label :street_two %><br>
-    <%= f.text_field :street_two %>(*)
+    <%= f.label :website %><br>
+    <%= f.text_field :website %>
   </p>
-  <hr>
-  <h8>POSTED BY</h8>
   <p>
-    <%= f.label :messenger_name %><br>
-    <%= f.text_field :messenger %>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
    </p>
     <p>
-    <%= f.label :messenger_contact_info %><br>
-    <%= f.text_field :contact %>
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
   </p>
    <p>
-    <%= f.label :complete_payment %><br>
-    <%= f.text_field :payout %>
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
   </p>
-  <hr>
-  
+  <hr>  
   <p>
     <%= f.submit %>
   </p>

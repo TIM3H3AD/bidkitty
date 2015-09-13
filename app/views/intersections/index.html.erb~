@@ -1,26 +1,23 @@
-<h1>SIGNPOST PROJECT</h1>
-<p>
-<hr>
-<h4>INTERSECTIONS</h4>
+<h4>PARTNERS</h4>
 <table class="table table-striped">
   <tr align="middle">
-    	<th align="center">INTERSECTION</th>
-  	<th align="center">messenger</th>
-  	<th></th>
-	<th align="center">paid?</th>
+    	<th align="center">NAME</th>
+  	<th align="center">PHONE</th>
+  	<th align="center">WEBSITE</th>
+	<th align="center">EMAIL</th>
 	<th></th>
 	<th></th>
 	<th></th>
     </tr>
   <tr valign="middle">
- <% for intersection @intersections %>
-        <td align="center"><%= intersection.street_one %> AND <%= intersection.street_two %></td>
-        <td align="center"><%= intersection.messenger %></td>
-        <td align="center"><%= intersection.contact %></td>
-	<td align="center"><%= intersection.payout %></td>
-	<td align="center"><%= link_to 'details', intersection %></td>
-	<td align="center"><%= link_to 'edit', edit_intersection_path(intersection) %></td>
-        <td align="center"><%= link_to 'delete', intersection_path(intersection), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
+ <% for partner @partners %>
+        <td align="center"><%= partner.name %></td>
+        <td align="center"><%= partner.phone %></td>
+        <td align="center"><%= partner.website %></td>
+	<td align="center"><%= email %></td>
+	<td align="center"><%= link_to 'details', partner %></td>
+	<td align="center"><%= link_to 'edit', edit_partner_path(partner) %></td>
+        <td align="center"><%= link_to 'delete', partner_path(partner), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
 
