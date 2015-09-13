@@ -14,11 +14,13 @@
         <td align="center"><%= partner.name %></td>
         <td align="center"><%= partner.phone %></td>
         <td align="center"><%= partner.website %></td>
-	<td align="center"><%= email %></td>
+	<td align="center"><%= partner.email %></td>
 	<td align="center"><%= link_to 'details', partner %></td>
 	<td align="center"><%= link_to 'edit', edit_partner_path(partner) %></td>
         <td align="center"><%= link_to 'delete', partner_path(partner), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
+ <hr>
+ <%= link_to 'ADD', new_partner_path %> 
 
 

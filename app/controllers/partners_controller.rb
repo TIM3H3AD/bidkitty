@@ -37,7 +37,7 @@ def show
 end
 
 def index
-  @partners = Partner.all
+  @partners = Partner.all.order(:name)
 end
 
 def destroy

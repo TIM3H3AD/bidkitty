@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   
   def about
-  @partners = Partner.all
+  @partners = Partner.all.order(:name)
   
   end
   

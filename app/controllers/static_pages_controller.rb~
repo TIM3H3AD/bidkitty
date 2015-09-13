@@ -1,20 +1,20 @@
 class StaticPagesController < ApplicationController
   
   def about
-  	  render
-  	  @partners = Partner.all
+  @partners = Partner.all
+  
   end
   
   def support
-  	render
+ 
   end
   
   def proxy_party
-  	render  
+  
   end
 
   def home
-  	  render
+  
   end
   
 end
