@@ -8,16 +8,16 @@ If you would like to join out TECH TEAM of proxy bidders, please email <a href="
 The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of your neighbors or community. 
 <p>
 Donations are greatly appreciated. Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
-<hr>
-<h4>PARTNERS</h4>
+<p>
 <table class="table table-striped">
   <tr align="middle">
-    	<th align="center">NAME</th>
+    	<h8><th align="center">TURTLEDOVE PARTNERS</th></h8>
     </tr>
   <tr valign="middle">
- <% @partners.each do |partner| %>
-        <td align="center"><%= partner.name %></td>
-<% end %>
+<% for partner in @partners %>
+        <td align="left"><%= partner.name %></td>
+  <% end %>
+</table>  
 <hr>
 <p>
 For information about the TURTLEDOVE community or "Turtle Dove Building" or questions from accredited investors, please call: <a href="tel:3136497918"><h2>313-649-7918</h2></a>

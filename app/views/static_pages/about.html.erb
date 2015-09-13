@@ -10,12 +10,13 @@ The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST'
 Donations are greatly appreciated. Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
 <p>
 <table class="table table-striped">
-  <tr align="middle">
+  <tr align="left">
     	<h8><th align="center">TURTLEDOVE PARTNERS</th></h8>
     </tr>
-  <tr valign="middle">
+  <tr valign="left">
 <% for partner in @partners %>
         <td align="left"><%= partner.name %></td>
+        </tr>
   <% end %>
 </table>  
 <hr>
