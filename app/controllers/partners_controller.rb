@@ -13,7 +13,7 @@ def create
     render 'new'
   end
 end
-  
+
 def show
   @partner = Partner.find(params[:id])
 end
@@ -37,7 +37,7 @@ def show
 end
 
 def index
-  @partners = Partner.all.order(:name)
+  @partners = Partner.all
 end
 
 def destroy

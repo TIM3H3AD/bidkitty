@@ -12,7 +12,6 @@ Rails.application.routes.draw do
   
   resources :users
   resources :bids
-  resources :streets
   resources :coins
   resources :intersections
   resources :partners
