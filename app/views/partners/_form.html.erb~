@@ -1,0 +1,42 @@
+<%= form_for @intersection do |f| %>
+  <% if @intersection.errors.any? %>
+  <div id="error_explanation">
+    <p><%= pluralize(@intersection.errors.count, "error") %> prohibited
+      this intersection from being saved:</p>
+    <ul>
+    <% @intersection.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+<hr>
+   <p>
+    <%= f.label :street_one %><br>
+    <%= f.text_field :street_one %>(*)
+   </p>
+   <p>
+    <%= f.label :street_two %><br>
+    <%= f.text_field :street_two %>(*)
+  </p>
+  <hr>
+  <h8>POSTED BY</h8>
+  <p>
+    <%= f.label :messenger_name %><br>
+    <%= f.text_field :messenger %>
+   </p>
+    <p>
+    <%= f.label :messenger_contact_info %><br>
+    <%= f.text_field :contact %>
+  </p>
+   <p>
+    <%= f.label :complete_payment %><br>
+    <%= f.text_field :payout %>
+  </p>
+  <hr>
+  
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>

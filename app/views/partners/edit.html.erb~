@@ -1,0 +1,8 @@
+<h1>Edit Intersection</h1>
+<hr>
+<%= render 'form' %>
+<hr>
+<%= link_to 'Back', intersections_path %>
+<hr>
+
+ 

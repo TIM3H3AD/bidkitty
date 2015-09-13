@@ -1,0 +1,24 @@
+<h4>PARTNERS</h4>
+<table class="table table-striped">
+  <tr align="middle">
+    	<th align="center">NAME</th>
+  	<th align="center">PHONE</th>
+  	<th align="center">WEBSITE</th>
+	<th align="center">EMAIL</th>
+	<th></th>
+	<th></th>
+	<th></th>
+    </tr>
+  <tr valign="middle">
+ <% for partner @partners %>
+        <td align="center"><%= partner.name %></td>
+        <td align="center"><%= partner.phone %></td>
+        <td align="center"><%= partner.website %></td>
+	<td align="center"><%= email %></td>
+	<td align="center"><%= link_to 'details', partner %></td>
+	<td align="center"><%= link_to 'edit', edit_partner_path(partner) %></td>
+        <td align="center"><%= link_to 'delete', partner_path(partner), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+ <% end %>
+
+

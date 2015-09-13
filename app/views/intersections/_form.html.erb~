@@ -1,0 +1,95 @@
+<%= form_for @bid do |f| %>
+  <% if @bid.errors.any? %>
+  <div id="error_explanation">
+    <p><%= pluralize(@bid.errors.count, "error") %> prohibited
+      this bid from being saved:</p>
+    <ul>
+    <% @bid.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+<hr>
+ <h8>PERSONAL DATA</h8>
+  <p>
+    <%= f.label :current_resident_OR_primary_contact %><br>
+    <%= f.text_field :maker%><br>
+    Please type ANONYMOUS, if you do not want to be contacted or connected with the purchase of this parcel.
+   </p>
+   <hr>
+   <p>
+    <%= f.label :contact_phone_number %><br>
+    <%= f.text_field :maker_phone %><br>
+    If left blank, we will not be able to contact you to discuss bid strategy or your project vision.
+  </p>
+  <hr>
+  <p>
+    <%= f.label :contact_email %><br>
+    <%= f.text_field :maker_email %><br>
+        If left blank, we will not be able to contact you to discuss bid strategy or your project vision.
+   </p>
+ <hr> 
+ <h8>PROPERTY DATA</h8>
+ <p>
+ Please use <%= link_to "LOVELAND", "https://makeloveland.com/2015/mi/wayne/detroit#b=neighborhoods", :target => "_blank" %> to locate or confirm the data in this section.
+ <p>
+   <p>
+    <%= f.label :street_number %><br>
+    <%= f.text_field :street_number %>(*)
+  </p>
+
+   <p>
+    <%= f.label :street_name %><br>
+    <%= f.text_field :street_name %>(*)
+  </p>
+  <hr>
+ <h8>AUCTION DATA</h8>
+ <p>
+ Please use <%= link_to "WAYNE COUNTY", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %> to locate this data. You can use the address and street number to find this data on <%= link_to "THIS", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %>
+ page.
+ <p>
+    <%= f.label :parcel_identification %><br>
+    <%= f.number_field :auction_id %>(*)
+  </p>
+  <hr>
+  <p>
+    <%= f.label :auction_end_time %><br>
+    <%= f.datetime_select :auction_end %>(*)
+   </p>
+   <hr>
+  <p>
+    <%= f.label :auction_starting_bid %><br>
+    <%= f.number_field :auction_starting_bid %>(*)
+  </p>
+  <hr>
+  <p>
+    <%= f.label :your_maximum_bid %><br>
+     <%= f.text_field :bid_threshold %>(*)<br>
+    This is your maximum valuation for the property in which you are interested. If TURTLEDOVE successfully wins this parcel, you or your community/guild will be required to pay this amount back within 2 years at 12% annual interest.<br>
+   </p>
+   <hr>
+  <p>
+    <%= f.label :current_funds_available %><br>
+    <%= f.number_field :available_funds %>(*)<br>
+     This is the amount of money you have available to support TURTLEDOVE in purchasing this property at auction. If you do not currently have funds available, enter "0" or use a (-) sign to request financial support for back taxes. example -1200
+  </p>
+  <hr>
+ <h8>PROJECT DATA</h8>  
+  <p>
+    <%= f.label :project_name %><br>
+    <%= f.text_field :unique_name %><br>
+    Please use this field to link multiple parcels for projects like farms, gardens or recreation space. Your project may be selected for a unique development page and this name would be used on our <%= link_to 'ABOUT', :about %> page and the web address. <br> For example: <%= link_to "turtledovedetroit.com/wb", "http://www.turtledovedetroit.com/wb", :target => "_blank" %>
+  </p>
+<hr>
+  <p>  
+    <%= f.label :your_plan_for_the_property %><br>
+    <%= f.text_area :plan %><br>
+    Please give a brief description of your project vision AND/OR any special requests you may have on prioritizing multiple bid requests. This is especially important if you plan to contribute additional funds to TURTLEDOVE for the purchase of a particular property.
+   </p>
+   
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>

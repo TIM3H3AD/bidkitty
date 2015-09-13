@@ -1,0 +1,14 @@
+<h8> THIS PARTNER ROCKS! </h8>
+<hr>
+<h4><%= @partner.name %>
+<p>
+<h8><%= @partner.website %></h8> 
+<p>
+<h8><%= @partner.email %></h8> 
+<p>
+<h8><%= @partner.phone %></h8> 
+<p>
+<h8><%= @partner.description %></h8>
+<hr>
+<h7><%= link_to 'complete | >> |', partners_path %></h7>
+

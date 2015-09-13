@@ -1,0 +1,39 @@
+<%= form_for @partner do |f| %>
+  <% if @partner.errors.any? %>
+  <div id="error_explanation">
+    <p><%= pluralize(@partner.errors.count, "error") %> prohibited
+      this partner from being saved:</p>
+    <ul>
+    <% @partner.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+<hr>
+   <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>(*)
+   </p>
+   <p>
+    <%= f.label :website %><br>
+    <%= f.text_field :website %>
+  </p>
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+   </p>
+    <p>
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </p>
+   <p>
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </p>
+  <hr>  
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>

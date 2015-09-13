@@ -1,0 +1,15 @@
+<h8> INTERSECTION @ </h8>
+<hr>
+<h4><%= @intersection.street_one %> AND <%= @intersection.street_two %></h4>
+<hr>
+<h11> POSTED BY: </h11>
+<p>
+<%= @intersection.messenger %>
+<p>
+<%= @intersection.contact %>
+<hr>
+<p>
+PAID?<%= @intersection.payout %>
+<hr>
+<h7><%= link_to 'complete | >> |', intersections_path %></h7>
+

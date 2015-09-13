@@ -1,6 +1,17 @@
-<hr>
 <h1>TEAM VIEW</h1><p>
 <p>
+<hr>
+<h1>PUBLSISHING DEPT</h1>
+<hr>
+<h4>PARTNERS</h4>
+<%= link_to 'ADD', new_partner_path %> <p>
+<%= link_to 'EDIT PARTNERS', partners_path %>
+<hr>
+<h4>INTERSECTIONS</h4>
+<%= link_to 'ADD', new_intersection_path %> <p>
+<%= link_to 'EDIT INTERSECTIONS', intersections_path %>
+<hr>
+<h4>PARCELS</h4>
 <table class="table table-striped">
   <tr align="middle">
     	<th align="center">ID</th>
@@ -20,8 +31,8 @@
         <td align="center"><%= bid.auction_id %></td>
         <td align="center"><%= bid.auction_end %></td>
         <td align="center"><%= bid.street_number %><%= bid.street_name %> </td>
-	<td align="center"><%= bid.bid_threshold %></td>
-	<td align="center"><%= bid.available_funds %></td> 
+	<td align="center"><%= number_to_currency(bid.bid_threshold) %></td>
+	<td align="center"><%= number_to_currency(bid.available_funds) %></td> 
   	<td align="center"><%= bid.maker %></td>
   	<td align="center"><%= bid.maker_phone %></td>
 	<td align="center"><%= bid.unique_name %></td>
@@ -30,4 +41,5 @@
         <td align="center"><%= link_to 'delete', bid_path(bid), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
  <% end %>
-</table>
+
+
