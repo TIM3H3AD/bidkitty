@@ -10,46 +10,17 @@ The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST'
 Donations are greatly appreciated. Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
 <hr>
 <h8>PARTNERS</h8>
-<hr>
-gnfD
-<p>
-BlackTopFarms
-<p>
-abdn
-<p>
-CityRepair
-<p>
-re:port/detroit
-<p>
-Midnight Farmer's Market
-<p>
-New Work New Veillance
-<p>
-ModelFunding
-<p>
-a2idop
-<p>
-2didop
-<p>
-4$F
-<p>
-Whalebone Intergalactic Cafe Banco
-<p>
-@rc Espresso & Trade
-<p>
-TVINAB
-<p>
-eyemediae
-<p>
-PitchMonday
-<p>
-PXCIL
-<p>
-MeToo! Cafe
-<p>
-NewsFirst
-<p>
-AfterCinema
+<table class="table table-striped">
+    <tr align="left">
+    <th></th>
+    </tr>
+	
+  <% @partners.each do |partner| %>
+    <tr align="left">
+	  <td align="center"><%= partner.name %></td>
+    </tr>
+  <% end %>
+</table>
 <hr>
 <p>
 For information about the TURTLEDOVE community or "Turtle Dove Building" or questions from accredited investors, please call: <a href="tel:3136497918"><h2>313-649-7918</h2></a>
