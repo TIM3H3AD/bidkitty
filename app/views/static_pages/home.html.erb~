@@ -2,15 +2,15 @@
 <table>
         <tr align="middle">
 	<td><img src="/assets/turtledove_logo.jpg"/></td>
-	<td valign="baseline">  
+	<td align="center" valign="middle">  
 	<h8>
-	If neighborhoods had access to capital for the purpose of purchasing 
+	"If neighborhoods had access to capital for the purpose of purchasing 
 	properties in the upcoming Wayne County Tax Auction, what would they 
 	do with it?"
-	</h8>
-	<table align="right">
+	</h8><p>
+	<table align="center">
 <tr>
-<td align="right" valign="top">
+<td align="center" valign="top">
 <a href="https://en-us.reddit.com/submit" onclick="window.location = 'http://en-us.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="https://en-us.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a></td>
 <td align="left" valign="top"><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Thank%20you%20tracking." data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></td>
 </tr>			
@@ -19,39 +19,29 @@
   </tr>  
 </table>
 <hr>
-<h1>TURTLEDOVE</h1><h4>12% solution</h4><hr>
+<h1>TURTLEDOVE</h1><h4>12% solution project database</h4><p>
 <h3>neighbors for neighbors</h3> 
-<p> 
-PROPERTY SUPPORT REQUESTS: <%= Bid.count %>
-<br>
-
-<h4>Use the button below to add your property to the <i>TURTLEDOVE</i> project database.</h4> 
-<h14><%= link_to 'START BID REQUEST HERE', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
+<p>
+Our database links community interest with capital funding to turn the annual Wayne County property auction into a more sustainable model for property redistribution where local vision wins. 
 <hr>
 <p>
-Turtle Dove's "12% Solution" is a way for neighbors to collectively 
-direct investment money meant for acquiring properties in the tax auction.  
-Whereas it normally takes a $10,000 deposit to bid on multiple lots in the 
-auction, we offer strategic support for individuals and groups who want to 
-acquire property but don't have the $10,000.
+<i>PROPERTY SUPPORT REQUESTS RECEIVED:</i> <b><%= Bid.count %></b>
+<p> 
+<i>ESTIMATED FUNDS NEEDED:</i> NA
 <p>
-We will purchase as many properties on behalf of YOU as funds allow and, 
-if they are successfully acquired at the auction, give YOU the right of 
-first refusal in negotiating a final sale of those properties.
+<h4>Use the button below to add your bid request to the <i>TURTLEDOVE</i> project database.</h4>
 <p>
-In addition to activating vacant properties, we are seeking community 
-partners in local housing/anti-foreclosure  to address Detroit’s tax 
-foreclosure crisis for occupied properties. If a family’s home is under 
-tax foreclosure, Turtle Dove would attempt to buy their property in the 
-tax auction to sell and/or finance it back to the family, keeping them in 
-their home and preserving the neighborhood.
+No registration or money is necessary to participate. Anonymous requests are considered equally.
+<p>
+<h14><%= link_to 'START BID REQUEST HERE', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
+<hr>
 <p>
 TURTLEDOVE is a way for neighbors to activate property in their area, 
 help keep families who are under tax foreclosure in their homes and is 
 ultimately an investment in the land, people and city of Detroit. 
 <p>
 To join this community
-revitalization effort, call <a href="tel:13136497918">313-649-7918</a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
+revitalization effort, you can go to our <%= link_to 'SUPPORT PAGE', :support %>, call <a href="tel:13136497918">313-649-7918</a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
 <hr>
 </div>
 <div class="span8">
