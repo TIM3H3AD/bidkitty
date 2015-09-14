@@ -1,16 +1,12 @@
 <div class="span4" margin-left: auto; margin-right: auto;>
 <hr>
-<h11><%= link_to "Culture Lab Detroit", "http://culturelabdetroit.org/september10.html", :target => "_blank" %></h11>
-<hr>
 <h8>
 "If neighborhoods had access to capital for the purpose of purchasing 
 properties in the upcoming Wayne County Tax Auction, what would they 
 do with it?"</h8>
-<hr>
 <table class="table table-striped">
   <tr align="middle">
 	<td><img src="/assets/turtledove_logo.jpg"/></td>
-	<td><img src="/assets/spirit_of_detroit.jpg"/></td>
   </tr>
 </table>
 <hr>
