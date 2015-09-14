@@ -2,7 +2,7 @@
 <p>
 TURTLEDOVE is designed to be decentralized and inclusive.  
 <p>
-The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of yourself,your neighbors or your community. 
+The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of yourself, your neighbors or your community. 
 <p>
 To help get the word out about TURTLEDOVE, we are now offering $1 per intersection to anyone who downloads our a flyer (see below) and sends a picture and description (street x street) to <a href="tel:3136497918">313-649-7918</a>. 
 <p>
