@@ -1,15 +1,41 @@
-<h11>Anonymous, international and intergalactic support is greatly appreciated. <br>We promise to keep our projects progressive and open sourced.<p>
-<br>We currently only accept digital currency online. </h11><p>
+<h8><u>TURTLEDOVE TEAM:</u></h8>
 <p>
-To thank you for your support and to make this real in the digital realm, we are offering shares of the properties we acquire and develop using your funds through <a href="http://www.dogeparty.io">DOGEPARTYCOIN(XDP)</a><p>
-Please send an email to <a href="mailto:whalebone.earth@gmail.com" target="_blank">WHALEBONE</a> with your XDP address (free at dogeparty.io) and the address you are using to fund <i>bidkitty</i>. We will then transfer digital assets in proportion to your investment that you choose at <a href="http://theohyeah.com/coins" target="_blank">theohyeah.com</a>.
+TURTLEDOVE is designed to be decentralized and inclusive.  
+<p>
+The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of yourself,your neighbors or your community. 
+<p>
+To help get the word out about TURTLEDOVE, we are now offering $1 per intersection to anyone who downloads our a flyer (see below) and sends a picture and description (street x street) to <a href="tel:3136497918">313-649-7918</a>. 
+<p>
+We are compiling a list of these locations and will provide payment at a location yet TBD. Flyers hung outside of Detroit are included!
+<p>
+If you would like to join our TECH TEAM of proxy bidders and auction experts to support Detroiters in requesting support, please email <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>. No expertise are needed. All questions will be answered! JOIN THE PARTY!
+<table class="table table-striped">
+  <tr align="left">
+    	<th align="center"><h8>TURTLEDOVE PARTNERS:</h8></th>
+    </tr>
+  <tr valign="center">
+<% for partner in @partners %>
+        <td align="center"><strong><i><%= partner.name %></i></strong></td>
+        </tr>
+  <% end %>
+</table> 
+<p>
+If you would like to be listed as a partner, please email our TECH TEAM at <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>
+<p>
+There is NO FEE to be listed as a partner.
 <hr>
- <h3>Thank you!</h3><p>
-<h11>BITCOIN:</h11><br>
-<img src="/assets/proxy_bitcoin.png"/><br>
-<h3><a href="https://blockchain.info/address/1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9"target="_blank" >1AVrz8ZNEzqrUcHJ9gV7NTLVW1bHdu3Yh9</a></h3>
+<h8><u>CONTRIBUTORS:</u></h8>
+Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
+<p>
+For information about the TURTLEDOVE community or "Turtle Dove Building" or questions from accredited investors, please call: <a href="tel:3136497918"><h2>313-649-7918</h2></a>
 <hr>
-<h11>STARTCOIN:</h11><h3><a href="http://explorer.startcoin.org/address/scatHW4kqsxtEVuwU2WoeFHW67QDZB95VE" target="_blank">scatHW4kqsxtEVuwU2WoeFHW67QDZB95VE</a></h3>
+<h8><u>FLYERS:</u></h8>
+<img src="/assets/12_percent_color.jpg"/>
 <hr>
-<h11>KORECOIN:</h11><h3><a href="http://explorer.korecoin.org/address/KH29egMB2wGSeUe6jCTfMcPSfxP9uGQokT" target="_blank">KH29egMB2wGSeUe6jCTfMcPSfxP9uGQokT</a></h3>
+<img src="/assets/12_percent_bw.jpg"/>
 <hr>
+<img src="/assets/12_percent_legal_bw.jpg"/>
+<hr>
+<img src="/assets/a2idop.jpg"/>
+<hr>
+<img src="/assets/2didop.jpg"/>

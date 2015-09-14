@@ -1,8 +1,9 @@
 <%# add navigation links to this file %>
-  <li role="presentation" class="active"><a href="about">ABOUT</a></li>
-  <li role="presentation" class="active"><a href="bids/new">BID REQUEST</a></li>
-  <li role="presentation" class="active"><a href="support">CROWDFUND</a></li>
-  <li role="presentation" class="active"><a href="bids">TEAM VIEW</a></li>
+  <li role="presentation" class="active"><%= link_to 'ABOUT', :about %></li>
+  <li role="presentation" class="active"><%= link_to 'SUPPORT', :support %></li>
+  <li role="presentation" class="active"><%= link_to 'CROWDFUND', :crowdfund %></li>
+  <li role="presentation" class="active"><%= link_to 'BID', new_bid_path %></li>
+  <li role="presentation" class="active"><%= link_to 'TEAM VIEW', bids_path %></li>_
 
 
   
