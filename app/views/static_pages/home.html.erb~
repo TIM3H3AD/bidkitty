@@ -1,13 +1,22 @@
 <div class="span4" margin-left: auto; margin-right: auto;>
-<hr>
-<h8>
-"If neighborhoods had access to capital for the purpose of purchasing 
-properties in the upcoming Wayne County Tax Auction, what would they 
-do with it?"</h8>
-<table class="table table-striped">
-  <tr align="middle">
+<table>
+        <tr align="middle">
 	<td><img src="/assets/turtledove_logo.jpg"/></td>
-  </tr>
+	<td valign="baseline">  
+	<h8>
+	If neighborhoods had access to capital for the purpose of purchasing 
+	properties in the upcoming Wayne County Tax Auction, what would they 
+	do with it?"
+	</h8>
+	<table align="right">
+<tr>
+<td align="right" valign="top">
+<a href="https://en-us.reddit.com/submit" onclick="window.location = 'http://en-us.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="https://en-us.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a></td>
+<td align="left" valign="top"><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Thank%20you%20tracking." data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></td>
+</tr>			
+</table>
+	</td>
+  </tr>  
 </table>
 <hr>
 <h1>TURTLEDOVE</h1><h4>12% solution</h4><hr>
@@ -17,7 +26,7 @@ PROPERTY SUPPORT REQUESTS: <%= Bid.count %>
 <br>
 
 <h4>Use the button below to add your property to the <i>TURTLEDOVE</i> project database.</h4> 
-<h14><%= link_to 'START BID REQUEST', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
+<h14><%= link_to 'START BID REQUEST HERE', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
 <p>
 Turtle Dove's "12% Solution" is a way for neighbors to collectively 
@@ -42,11 +51,11 @@ help keep families who are under tax foreclosure in their homes and is
 ultimately an investment in the land, people and city of Detroit. 
 <p>
 To join this community
-revitalization effort, call <a href="tel:13136497918"><h2>313-649-7918</h2></a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
+revitalization effort, call <a href="tel:13136497918">313-649-7918</a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
 <hr>
 </div>
 <div class="span8">
-<h8>FLYERS</h8>
+<h8><u>FLYERS:</u></h8>
 <img src="/assets/12_percent_color.jpg"/>
 <hr>
 <img src="/assets/12_percent_bw.jpg"/>
