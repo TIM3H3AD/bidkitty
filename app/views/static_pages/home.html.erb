@@ -27,7 +27,7 @@ Our database links community interest with capital funding to turn the annual Wa
 <p>
 <i>PROPERTY SUPPORT REQUESTS RECEIVED:</i> <b><%= Bid.count %></b>
 <p> 
-<i>ESTIMATED FUNDS NEEDED:</i> <b><%= Bid.sum(:auction_starting_bid) %></b>
+<i>ESTIMATED FUNDS NEEDED:</i> <b><%= number_to_currency(Bid.sum(:auction_starting_bid)) %></b>
 <p>
 <h4>Use the button below to add your bid request to the <i>TURTLEDOVE</i> project database.</h4>
 <p>
