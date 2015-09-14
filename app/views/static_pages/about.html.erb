@@ -18,4 +18,18 @@ their home and preserving the neighborhood.
 <p>
 To join this community
 revitalization effort, please see our <%= link_to 'SUPPORT', :support %> page, call <a href="tel:13136497918">313-649-7918</a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
-
+<hr>
+<table class="table table-striped">
+  <tr align="left">
+    	<th align="center"><h8>TURTLEDOVE PARTNERS:</h8></th>
+    </tr>
+  <tr valign="center">
+<% for partner in @partners %>
+        <td align="center"><strong><i><%= partner.name %></i></strong></td>
+        </tr>
+  <% end %>
+</table> 
+<p>
+If you would like to be listed as a partner, please email our TECH TEAM at <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>
+<p>
+There is NO FEE to be listed as a partner.
