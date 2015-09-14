@@ -1,7 +1,36 @@
 <h1>BID REQUEST</h1>
 <p>
-For support with completing your project's bid request, please call: <a href="tel:3137407798"><h2>313-740-7798</h2></a>
- 
+Your bid request can be completed with the information available on the following sites:
+<p>
+<%= link_to "LOVELAND", "https://makeloveland.com/2015/mi/wayne/detroit#b=neighborhoods", :target => "_blank" %>
+<p>
+<%= link_to "WAYNE COUNTY", "https://www.waynecountytreasurermi.com/Search.aspx", :target => "_blank" %>
+<p>
+For support with completing your project's bid request, please call: <a href="tel:3137407798"><h2>313-740-7798</h2></a> 
+<hr> 
+<p>Current TECH TEAM availability is 6am-Noon, daily!<p>
+If your call goes to voicemail, please send an email to <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a> with your phone number and availability.<p>
+We will return your call ASAP and will be expanding our availability.
+<hr>
+<h8>INSTRUCTIONS</h8>
+<p>
+Required fields are marked with an (*) and the form will send an error message if these items are skipped.
+<p>
+Please complete this form for each property you would like support in securing.
+<p>
+If you plan to combine several lots for a single project, please use the "PROJECT NAME" field to link these properties in our database.
+<p> 
+Our database is open source and by design does not require user registration.
+<p>
+If we receive multiple requests for the same parcel, bid requests with contact information and/or support from local community elders will receive priority.
+<p>
+The database will remain viewable only to TURTLEDOVE partners and TECH TEAM members for the first round of the property auction while database wide metrics will be viewable on the <%= link_to 'HOME PAGE', root_path %> 
+<p>
+If you would like to join out TECH TEAM of proxy bidders, please email <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a> or call<a href="tel:3137407798">313-740-7798</a> 
+<hr> 
+<h2>Thank you for building Detroit with people before profit.</h2>
+<hr>
+<h1>Start here:</h1>
 <%= render 'form' %>
  
 
