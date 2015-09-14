@@ -1,41 +1,21 @@
-<h8><u>TURTLEDOVE TEAM:</u></h8>
 <p>
-TURTLEDOVE is designed to be decentralized and inclusive.  
+Turtle Dove's "12% Solution" is a way for neighbors to collectively 
+direct investment money meant for acquiring properties in the tax auction.  
+Whereas it normally takes a $10,000 deposit to bid on multiple lots in the 
+auction, we offer strategic support for individuals and groups who want to 
+acquire property but don't have the $10,000.
 <p>
-The biggest service ANYONE can provide is completing a <%= link_to 'BID REQUEST', new_bid_path %></li> on behalf of yourself,your neighbors or your community. 
+We will purchase as many properties on behalf of YOU as funds allow and, 
+if they are successfully acquired at the auction, give YOU the right of 
+first refusal in negotiating a final sale of those properties.
 <p>
-To help get the word out about TURTLEDOVE, we are now offering $1 per intersection to anyone who downloads our a flyer (see below) and sends a picture and description (street x street) to <a href="tel:3136497918">313-649-7918</a>. 
+In addition to activating vacant properties, we are seeking community 
+partners in local housing/anti-foreclosure  to address Detroit’s tax 
+foreclosure crisis for occupied properties. If a family’s home is under 
+tax foreclosure, Turtle Dove would attempt to buy their property in the 
+tax auction to sell and/or finance it back to the family, keeping them in 
+their home and preserving the neighborhood.
 <p>
-We are compiling a list of these locations and will provide payment at a location yet TBD. Flyers hung outside of Detroit are included!
-<p>
-If you would like to join our TECH TEAM of proxy bidders and auction experts to support Detroiters in requesting support, please email <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>. No expertise are needed. All questions will be answered! JOIN THE PARTY!
-<table class="table table-striped">
-  <tr align="left">
-    	<th align="center"><h8>TURTLEDOVE PARTNERS:</h8></th>
-    </tr>
-  <tr valign="center">
-<% for partner in @partners %>
-        <td align="center"><strong><i><%= partner.name %></i></strong></td>
-        </tr>
-  <% end %>
-</table> 
-<p>
-If you would like to be listed as a partner, please email our TECH TEAM at <a href="mailto:whalebone.earth@gmail.com">whalebone.earth@gmail.com</a>
-<p>
-There is NO FEE to be listed as a partner.
-<hr>
-<h8><u>CONTRIBUTORS:</u></h8>
-Our <%= link_to 'CROWDFUND', :support %></li> page will be expanding to include credit cards and currently accepts Bitcoin.
-<p>
-For information about the TURTLEDOVE community or "Turtle Dove Building" or questions from accredited investors, please call: <a href="tel:3136497918"><h2>313-649-7918</h2></a>
-<hr>
-<h8><u>FLYERS:</u></h8>
-<img src="/assets/12_percent_color.jpg"/>
-<hr>
-<img src="/assets/12_percent_bw.jpg"/>
-<hr>
-<img src="/assets/12_percent_legal_bw.jpg"/>
-<hr>
-<img src="/assets/a2idop.jpg"/>
-<hr>
-<img src="/assets/2didop.jpg"/>
+To join this community
+revitalization effort, you can go to our <%= link_to 'SUPPORT PAGE', :support %>, call <a href="tel:13136497918">313-649-7918</a> <p>or email <a href="mailto:info@turtledovedetroit.com">info@turtledovedetroit.com</a>
+

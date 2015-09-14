@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150913020709) do
+ActiveRecord::Schema.define(version: 20150914201355) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,9 +32,9 @@ ActiveRecord::Schema.define(version: 20150913020709) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "available_funds"
-    t.string   "auction_starting_bid"
     t.string   "estimated_funds_needed"
     t.string   "total_payments_made"
+    t.integer  "auction_starting_bid"
   end
 
   create_table "intersections", force: true do |t|
