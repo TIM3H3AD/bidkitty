@@ -8,12 +8,4 @@ class StaticPagesController < ApplicationController
    @partners = Partner.all.order(:name)
   end
   
-  def proxy_party
-  
-  end
-
-  def home
-  
-  end
-  
 end

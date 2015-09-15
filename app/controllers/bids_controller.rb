@@ -53,4 +53,8 @@ def destroy
   redirect_to bids_path
 end
 
+def bid_params
+      params.require(:bid).permit(:estimated_funds_needed, :available_funds, :auction_starting_bid)
+end
+
 end
