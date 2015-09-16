@@ -27,11 +27,11 @@ Our database links community interest with capital funding to turn the annual Wa
 <p>
 <i>PROPERTY SUPPORT REQUESTS RECEIVED:</i> <b><%= Bid.count %></b>
 <p> 
-<i>ESTIMATED FUNDS NEEDED:</i> NA
+<i>ESTIMATED FUNDS NEEDED:</i> <b><%= number_to_currency(Bid.sum(:auction_starting_bid)) %></b>
 <p>
 <h4>Use the button below to add your bid request to the <i>TURTLEDOVE</i> project database.</h4>
 <p>
-No registration or money is necessary to participate. Anonymous requests are considered equally.
+Site registration and money is NOT necessary to participate in the 12% solution project. Anonymous requests are considered equally.
 <p>
 <h14><%= link_to 'START BID REQUEST HERE', new_bid_path, class: "btn btn-large btn-default" %></h14><p>
 <hr>
