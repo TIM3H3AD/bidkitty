@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :installs
   root to: 'static_pages#home'
   
   get '/about' => 'static_pages#about'
@@ -9,7 +10,7 @@ Rails.application.routes.draw do
   get '/support' => 'static_pages#support'
   get '/proxy_party'=> 'static_pages#proxy_party'
   
-  devise_for :users
+  
   
   resources :users
   resources :bids

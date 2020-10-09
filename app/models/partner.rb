@@ -1,3 +1,3 @@
-class Partner < ActiveRecord::Base
+class Partner < ApplicationRecord
   validates :name,  :presence => true
 end
